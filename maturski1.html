@@ -1,0 +1,3967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(21, 21, 21);
+        color: #fff;
+    }
+
+    .w-full {
+        width: 100%;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 17px;
+        margin-top: 70px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .bold {
+        font-style: italic;
+    }
+
+    .qa-container {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+</style>
+
+<body>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <div id="qaContainer" class="w-full text-left">
+    <div class="qa-container">
+        <h1>1. Zaokruziti broj ispred kljucne reci kojom se pri kodiranju u
+        programskom jeziku C, u naredbi vise strukog grananja obelezavaju
+        vrednosti za koje se ulazi u pojedine grane:</h1>
+        <p class="bold">4. case</p>
+    </div>
+
+    <div class="qa-container">
+    <h1>
+    2. U programskom jeziku C deklarisane su promenjive i dat je deo koda
+    programa: <br />FILE *fp; char str[150]; fp=fopen("primer.txt", "r");
+    fgets(str, 80,fp); <br />Odrediti sta je posledica izvrsavanaj datog
+    koda. Zaokruziti broj ispred ocekivanog odgovora: <br /><br />
+    FILE *fp; char str[150]; fp=fopen("primer.txt" , "r"); fgets(str, 80,
+    fp);
+    </h1>
+    <p class="bold">
+    Ucitava 80 karaktera iz datoteke i smesta u string str.
+    </p>
+    </div>
+
+
+
+<div class="qa-container">
+    <h1>
+    3. U programu napisanom u programskom jeziku C deklarisana je
+    promenljiva pod tipa int. Upotrebnom funkcije fprintf(...) upisati
+    deklarisan podatak u standardnu izlaznu datoteku. Zaokruziti broj ispred
+    ispravno napisane naredbe: -
+    </h1>
+    <p class="bold">fprintf(stdout, "%d", pod);</p>
+</div>
+
+
+
+<div class="qa-container">
+    <h1>
+    4. U programskom jeziku C deklarisani su strukturni tipovi podataka
+    Tacka3D (koji definise tacku u prostoru) i Lopta (odredjena centrom i
+    poluprecnikom)
+    </h1>
+    <p class="bold">Lopta x = &#123;&#123;2.0, 2.0, 2.0&#125;, 10.0&#125;;</p>
+
+</div>
+
+<div class="qa-container">
+    <h1>
+    5. U programskom jeziku C deklarisana je promenljiva fp koja predstavlja
+    pokazivac na binarnu datoteku i promljiva podatak u koju ce se upisati
+    procitani podaci iz definisane binarne datoteke. Zaokruziti redni broj
+    ispred naredbe koja omogucava ucitavanje tri bajta sa trenutne pozicije
+    iz binarne datoteke:
+    </h1>
+    <p class="bold">fread(&podatak, 3, 1, fp);</p>
+
+</div>
+
+<div class="qa-container">
+    <h1>
+    6. U programskom jeziku C deklarisana je promenljiva fp koja predstavlja
+    pokazivac na binarnu datoteku i promenljiva podatak cija vrednost ce se
+    upisati u definisanu binarnu datoteku Zaokruziti redni broj ispred
+    naredbe koja omogucava upis tri bajta u binarnu datoteku:
+    </h1>
+    <p class="bold">fwrite(&podatak, 3, 1, fp)</p>
+</div>
+<div class="qa-container">
+    <h1>
+    7. U programskom jeziku C data je naredba deklaracije, a zatim i naredba
+    formatiranog izlaza float x = 5.56; printf(" x = %f\tx = %g\n", x, x);
+    Nakon izvrsavanja ovih naredbi na ekranu ce se prikazati vrednosti
+    promenljivih u zadatom formatu. Zaokruziti broj ispred tacnog odgovora:
+    </h1>
+    <p class="bold">x=5.560000 x=5.560000e+00</p>
+
+</div>
+<div class="qa-container">
+    <h1>
+    8. U programskom jeziku C deklarisana je celobrojna promenljiva i
+    dodeljena joj je vrednost logickog izraza: int x; x = 1==10>5; Imajuci u
+    vidu prioritet operatora, odrediti vrednost promenljive x posle
+    izvrsenja ove naredbe. Zaokruziti broj ispred trazenog odgovora:
+    </h1>
+    <p class="bold">2. promenljiva dobija vrednost logicke istine x=1</p>
+
+</div>
+<div class="qa-container">
+    <h1> 9. U programskom jeziku C deklarisane su dve celobrojne promenljive.
+    Promenljiva a dobija vrednost unosom sa tastature. Zatim se vrednost
+    logičkog izraza dodeljuje promenljivoj x int x, a; scanf("%d", &a); x =
+    10 != 5 || a < 2; Imajući u vidu prioritet operatora, odrediti vrednost promenljive x posle izvršenja ove
+    naredbe. Zaokružiti broj ispred traženog odgovora: </h1>
+
+    <p class="bold">
+    Bez obzira na vrednost koja se unese u promenljivu a, vrednost izraza je
+    uvek 'tačno', tj. x = 1.
+    </p>
+
+</div>
+
+
+<div class="qa-container">
+    <h1>
+    10. Naredbom u C jeziku treba proveriti da li je broj paran ili neparan.
+    Proceniti koja od datih naredbi vrsi ovu proveru i zaokruziti broj
+    ispred tacno napisane naredbe:
+    </h1>
+    <p class="bold">
+    (broj % 2 == 0) ? printf("PARAN!!") : printf("NEPARAN!!")
+    </p>
+
+
+
+</div>
+
+<div class="qa-container">
+    <h1>
+    11. Kod dat u tekstu zadatka treba realizovati pomocu jedne if naredbe. Zaokružiti broj
+    ispred ponuđenog tačnog odgovora. if(x > 1) { if(x < 6) y=4; } </h1>
+    <p class="bold">
+    if (x > 1 && x < 6) y=4; </p>
+
+
+</div>
+<div class="qa-container">
+    <h1>
+    12. Dat je deo koda na programskom jeziku C
+    for(j=0; j<n; j++) if(a[j]>0)s+=a[j];
+    else break;
+    Svaka for petlja moze se napisati koriscenjem while i do-white naredbne.
+    Zaokruziti broj ispred ponudjenog koda koji je ekvivalentan kodu datom u tekstu
+    zadataka:
+    </h1>
+    <p class="bold">
+    j=0; while(j<n && a[j]>0) s+=a[j++];
+    </p>
+</div>
+
+
+<div class="qa-container">
+
+    <h1>
+    13. Data je deklaracija promenljivih unsigned a,b i deo koda u programskom jeziku C.
+    Odrediti sta se nalazi kao rezultat u promenljivoj x i y nakon izvrsenja datog koda.
+    unsigned a, b, x, y, temp;
+    x = a*b;
+    while(b) temp=a%b, a=b, b=temp;
+    y=b;
+    x/=y;
+    </h1>
+    <p class="bold">
+    x je najveći zajednički delilac za a i b, a y najmanji zajednički sadržalac za a i
+    b.
+    </p>
+
+</div>
+
+<div class="qa-container">
+    <h1>
+    14. Data je deklaracija promenljivih pod br i deo koda u programskom jeziku C
+    unsigned pod, br;
+    pod=128;
+    br=0;
+    while(pod!=0) {
+    if(pod & 0x1) br++;
+    pod>>=0x1;
+    }
+    Zaokruziti sta predstavlja vrednost koju promenljiva br dobije izvrsenjem koda
+    </h1>
+    <p class="bold">
+    1. broj jedinica u binarnom zapisu broja pod
+    </p>
+
+</div>
+<div class="qa-container">
+    <h1>
+    15. Dat je deo koda na programskom jeziku C, koji kontrolise unos celobrojne
+    promenljive
+    n. Odrediti vrednosti koje promenljiva n moze dobiti. Zaokruziti broj ispred
+    trazenog
+    odgovora:
+    </h1>
+    <p class="bold">
+    5. Omogucava unos samo neparnog pozitivnog prirodnog broja
+    </p>
+</div>
+
+
+
+<div class="qa-container">
+    <h1>
+    16. Data je deklaracija promenljivih i deo programskog koda:
+    int i, temp, n = 11;
+    int x[30] = { -3, -1, -2, -2, 1, 4, 3, 1, 5, -8, 5};
+    temp = x[0];
+    i = 0;
+    while(i < n - 1) { x[i++]=x[i]; } x[n - 1]=temp; Odrediti vrednost niza x nakon
+    izvršenja koda. </h1>
+    <p class="bold">
+    x[ ] = { -1, -2, -2, 1, 4, 3, 1, 5, -8, 5, -3 }
+    </p>
+
+</div>
+
+
+<div class="qa-container">
+    <h1>
+    17. U programskom jeziku C je data deklaracija promenljivih, a kasnije u
+    kodu izvrsen
+    poziv funkcije na sledeci nacin
+    int k, i;
+    char lista[10] [50], ime[50];
+    if( Formatiraj(lista[i], ime, k) == NULL) { ... }
+    Odrediti deklaraciju funkcije Formatiraj.
+    </h1>
+    <p class="bold">
+    5. char *Formatiraj(char sl[], char s2[], int x);
+    </p>
+
+</div>
+
+
+<div class="qa-container">
+    <h1>
+    18. U programskom jeziku C je data deklaracija promenljivih, a kasnije u
+    kodu izvrsen
+    poziv funkcije na sledeci nacin:
+    int x,y, y, j;
+    float **mat, *vek, z;
+    mat[i] = Formatiraj(x, 0.5);
+    Odrediti deklaraciju funkcije Formatiraj.
+    </h1>
+    <p class="bold">
+    3. float *Formatiraj(float n, int m);
+    </p>
+
+</div>
+
+
+<div class="qa-container">
+    <h1>
+    19.
+    Dat je kod rekurzivne funkcije napisan u programskom jeziku C:
+    <br>
+    <code>
+    void prikaz (int k, int n) &#123;
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;printf("%d ", k);
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;if(k < n) prikaz(k + 1, n);
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;printf("%d ", k);
+    <br>
+    &#125;
+    </code>
+    <br>
+Proceniti sta ce se desiti ako se funkcija pozove naredbom prikaz(4,10);
+</h1>
+<p class="bold">
+2. 4 5 6 7 8 9 10 9 8 7 6 5 4
+</p>
+
+</div>
+
+<div class="qa-container">
+
+<h1>
+20. U programskom jeziku C dat je prototip funkcije funkcija() |A
+deklarisane su
+promenljive u funkciji main(). U ponuđenim odgovorima dati su pozivi
+funkcije za
+deklarisane promenljive.
+</h1>
+<p>
+2. funkcija(&a, &b, &poc);
+</p>
+
+</div>
+
+
+<div class="qa-container">
+<h1>
+21. U programskom jeziku S deklarisani su strukturni tipovi podataka Tacka
+(određena
+koordinatama), Poligon (određen brojem i koordinatama temena) i Piramida
+(određena
+tipom osnove — Tpoyrao, četvorougao... i visinom). Potom je deklarisana i
+promenljiva
+tipa *Piramida:
+Zaokružiti broj ispred naredbe kojom se broj temena osnove piramide na koju
+pokazuje
+deklarisani pokazivač *r, postavlja na 6:
+</h1>
+<p>
+
+<br />
+3. p->osnova.brojTemena=6;
+</p>
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>
+22. Zaokružiti brojeve ispred TAČNIH iskaza koji se odnose na definiciju
+while ciklusa:
+</h1>
+<p>
+1. while ciklus se izvršava sve dok je uslov logička neistina (jednak nuli),
+<br />
+2. while ciklus se koristi kada se zna koliko će se puta ciklus izvršavati,
+<br />
+4. kod while ciklusa se može desiti da se telo ciklusa ne izvrši nijednom
+(na početku
+uslov nije zadovoljen).
+</p>
+</div>
+
+
+<div class="qa-container">
+<h1>
+23. Navedeni su iskazi koji se odnose na definiciju do-while ciklusa.
+Zaokružiti brojeve
+ispred TAČNIH iskaza:
+</h1>
+<p>
+1. Koristi se kada se ne zna koliko će se puta ciklus ponavljati,
+<br />
+2. Ciklus se izvršava barem jednom.
+</p>
+
+
+</div>
+<div class="qa-container">
+<h1>
+24. Zaokružiti brojeve ispred ponuđenih tvrdnji koje predstavljaju tačne
+nastavke izjave
+koja se odnose na povratnu vrednost funkcije fopen:
+</h1>
+<p>
+3. vraća NULL pokazivač ako datoteka ne postoji
+</p>
+</div>
+
+
+<div class="qa-container">
+<h1>
+25. Date su naredbe deklaracije promenljivih (sa i bez inicijalizacije
+vrednosti)
+napisane na programskom jeziku C. Zaokružiti brojeve ispred ispravno
+napisanih
+naredbi deklaracije promenljivih:
+</h1>
+<p>
+2. int a=5, b=5, c=5;
+</p>
+<p>
+5. int a=0xf2;
+</p>
+<p>
+6. char zn='\b';
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+<h1>
+26. Deklarisane su sledeće promenljive:
+float h, z;
+const float y;
+Zaokružiti brojeve ispred NEISPRAVNO napisanih naredbi dodele vrednosti
+promenljivama:
+</h1>
+<p>
+1. x %= y;
+</p>
+<p>
+2. x =+ 5;
+</p>
+<p>
+4. x =/ y + 5;
+</p>
+<p>
+5. y=x+z
+</p>
+<p>
+6. & x=z=y+5;
+</p>
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>
+27. Data je naredba deklaracije int a, b;
+Imajući u vidu datu deklaraciju, zaokružiti brojeve ispred NEISPRAVNO
+napisanih
+naredbi formatiranog unosa podataka:
+</h1>
+<p>
+4. scanf("%d%d", a, b);
+</p>
+<p>
+6. scanf('%5d 5d", &a, &b);
+</p>
+</div>
+
+
+<div class="qa-container">
+
+<h1>
+28. Date su naredbe deklaracije i inicijalizacije jednodimenzionalnog niza
+celih brojeva
+u programskom jeziku C. Zaokružiti brojeve ispred ispravno napisanih naredbi
+deklaracije i inicijalizacije jednodimenzionalnog niza:
+</h1>
+<p>
+1. int a[10]={1,2,3};
+</p>
+<p>
+2. int a[5]={-3, -2, -1, 0, 1, 2, 3};
+</p>
+<p>
+3. int a[]={10,20,30,40,50};
+</p>
+<p>
+6. int a[5]={1, 2, 3, 4, 5};
+</p>
+
+</div>
+
+<div class="qa-container">
+<h1>
+29. Termin „adresna aritmetika“ se odnosi na izvođenje aritmetičkih
+operacija nad
+pokazivačima. Analizirati date iskaze koji definišu dozvoljene aritmetičke
+operacije nad pokazivačima. Zaokružiti brojeve ispred tačnih iskaza:
+</h1>
+<p>
+3. Oduzimanje i upoređivanje dva pokazivača.
+</p>
+<p>
+4. Identifikator niza je pokazivač na početak niza i može mu se menjati
+vrednost.
+</p>
+<p>
+5. Upoređivanje pokazivača sa NULL.
+</p>
+<p>
+6. Sabiranjem dva pokazivača, dobija se novi pokazivač.
+</p>
+</div>
+
+<div class="qa-container">
+<h1>
+30. Naredbama programskog jezika C data je deklaracija jedne simboličke
+konstante i jedne
+konstantne promenljive:
+Zaokružiti brojeve ispred ispravno napisanih naredbi deklaracije
+dvodimenzionalnog niza celih brojeva (matrice):
+#define k 50 ...
+int m = 100; ...
+</h1>
+<p>
+1. int a[k][k];
+</p>
+<p>
+2. int b[k][m];
+</p>
+<p>
+3. int c[k][10];
+</p>
+<p>
+4. int h[100][50];
+</p>
+<p>
+5. int y[10][10];
+</p>
+<p>
+6. int z[m][10];
+</p>
+</div>
+
+
+<div class="qa-container">
+
+<h1>
+31. U sledećem zadatku zaokružiti brojeve ispred traženih odgovora.
+Data je naredba y C jeziku, koja temperaturu u Celzijusima tempc pretvara u
+temperaturu u Farenhajtima tempf. Podaci tempc i tempf cy realni brojevi
+obične
+tačnosti. Proceniti koji izrazi daju tačno rešenje.
+</h1>
+
+<p>
+1. temf = (9 / 5) * temc + 32;
+</p>
+<p>
+4. temf = 32 + 9 * temc / 5;
+</p>
+</div>
+
+<div class="qa-container">
+
+<h1>Dataje if–else naredba:
+Zaokružiti brojeve ispred ponuđenih switch naredbi koje su ekvivalentne
+datoj if–else
+naredbi:
+if( ==3 || a== ) p++;
+else p—–;
+</h1>
+<p>switch(a) {
+case 3:
+case 5:
+p++;
+break;
+default:
+p--;
+}</p>
+</div>
+
+
+<div class="qa-container">
+
+<h1>33. U programu na programskom jeziku C izvršena je sledeća deklaracija, a
+kasnije i rezervacija memorijskog prostora za niz realnih brojeva obične
+tačnosti dužine p:</h1>
+<p>
+float *B;<br>
+int n;<br>
+B = (float*)calloc(n, sizeof(float));<br>
+</p>
+
+</div>
+
+<div class="qa-container">
+<h1>Pitanje: Koje od naredbi ispravno prikazuje j-ti element niza B?</h1>
+
+<h1>Odgovori:</h1>
+<p>
+1. <code>printf("%f", B[i]);</code><br>
+2. <code>printf("%f", B+i);</code><br>
+3. <code>printf("%f", *(B+i));</code><br>
+</p>
+</div>
+
+
+
+
+
+<div class="qa-container">
+<h1>34. U programu na programskom jeziku C izvršena je sledeća deklaracija, a
+kasnije i
+rezervacija memorijskog prostora za niz realnih brojeva obične talnosti
+dužine p:
+
+float *B;
+int n;
+B=(float*)calloc(n,sizeof(float));
+
+Zaokružiti brojeve ispred ispravno napisanih naredbi za UNOS j-tog elementa
+niza B:
+1. scanf("&f", B[i]);
+2. scanf("&f" B+i);
+3. scanf("&p" B+i);
+4. scanf("&f" &B[i]);
+5. scanf("&f" *(B+i));</h1>
+<p>scanf("&f", B[i]);
+scanf("&f" &B[i]);
+scanf("&f" *(B+i));
+</p>
+</div>
+
+
+
+<div class="qa-container">
+<h1>35. Dati su prototipovi funkcija napisani u programskom jeziku C. Zaokružiti
+brojeve
+ispred ispravno napisanih prototipova funkcija:
+
+1. float* ppl(int a, int b, int c);
+2. int pp2(int a[][10], int n);
+3. int pp3(int a[], n; float b);
+4. void pp4(int *a, int n);
+5. int pp5(int a[][], int n);
+6. int pp6(int a[], int n);
+7. int pp7(int a, b, c);
+8. float[ ] pp8(float a[ ], int n);
+</h1>
+<p>int pp2(int a[][10], int n);
+void pp4(int *a, int n);
+int pp6(int a[], int n);
+float* pp8(float a[ ], int n);
+</p>
+
+</div>
+
+<div class="qa-container">
+
+    <h1>36. Zaokružiti brojeve ispred ponuđenih tvrdnji koje predstavljaju tačne
+    nastavke izjave
+    koja se odnose na povratnu vrednost funkcije fopen:
+    Pri pokušaju da datoteku otvorimo za pisanje, funkcija fopen... <br>
+    1. ako datoteka ne postoji, kreira praznu datoteku, postavlja se na njen
+    početak i
+    vraća pokazivač na tu datoteku
+    2. vraća NULL pokazivač ako datoteka ne postoji
+    3. ako datoteka postoji, izlazi upozorenje da će njen sadržaj biti uništen
+    pri
+    otvaranju
+    4. ako datoteka ne postoji, izaziva grešku koja dovodi do pucanja programa
+    5. ako datoteka postoji, uništava njen sadržaj bez upozorenja</h1>
+    <p>ako datoteka postoji, izaziva grešku koja dovodi do pucanja programa</p>
+</div>
+
+
+<div class="qa-container">
+
+    <h1>
+
+    37. U programskom jeziku C je deklarisana nizovna promenljiva:
+    int niz[10];
+
+    Zaokružiti brojeve ispred ispravno napisanih naredbi čitanja niza celih
+    brojeva
+    dužine 10 iz binarnog fajla na koji pokazuje pokazivač *in: <br>
+    1. fread(niz, sizeof (int), 10, in);
+    2. fread(&niz, sizeof (int), 10, in);
+    3. fread(&niz, sizeof niz, 1, in);
+    4. fread(niz, sizeof niz, 1, in);
+    5. fread(niz, sizeof (niz), 1, *in);
+    6. fread(niz, sizeof (int)*10, in);
+    </h1>
+    <p>Tacan odgovor: fread(niz, sizeof (int), 10, in);</p>
+
+</div>
+
+<div class="qa-container">
+
+    <h1>38. U programskom jeziku S deklarisan je strukturni tip podataka Ucenik, a
+    zatim i
+    promenljiva tipa Ucenik:
+
+    typedef struct{
+    char ime[50];
+    int razred;
+    int ocene[10];
+    }Ucenik;
+    int i; Ucenik X; <br>
+    Zaokruživanjem obeležiti ispravne načine pristupa poljima strukturne
+    promenljive h:
+
+    1. x.ocene[i] <br>
+    2. *X.razred <br>
+    3. x—>ime <br>
+    4. x[i].ocene <br>
+    5.X.ime</h1>
+    <p> Tacan odgovor:
+
+    x.ocene[i] <br>
+    x—>ime <br>
+    X.ime
+    </p>
+
+</div>
+
+
+<div class="qa-container">
+    <h1>39. U programskom jeziku C deklarisan je strukturni tip podataka Putovanje,
+    a zatim i promenljiva tipa podataka Putovanje:
+
+    typedef struct
+    {
+    char start[50], cilj[50];
+    int kilometraza;
+    }Putovanje;
+    Putovanje *p;
+
+
+
+    Zaokruživanjem obeležiti ispravne načine pristupa poljima strukturne
+    promenljive:
+    1. *p–>kilometraza <br>
+    2. (*p).kilometraza <br>
+    3. &p–>kilometraza <br>
+    4. p–>start <br>
+    5. *(p).start <br></h1>
+    <p>
+
+    Tacan odgovor: <br>
+    (*p).kilometraza <br>
+    p–>start</p>
+
+</div>
+
+
+
+
+<div class="qa-container">
+
+<h1>40. Dat je prototip funkcije napisan u programskom jeziku C:
+void Saberi(int n, int *a, int *b);
+U main funkciji date su sledeće deklaracije promenljivih:
+int x[50][50], y[50], m, j, i;
+Zaokružiti brojeve ispred ispravno napisanih poziva deklarisane funkcije:
+<br>
+1. Saberi (mi y[i]r y[i+1]); <br>
+2. Saberi (y[i], x[i], x[i+1]); <br>
+3. Saberi (m, y, x[i][j]); <br>
+4.Saberi (y, x[i], x[i+1]); <br>
+5. Saberi (10, y, x[0]); <br>
+6. Saberi (x[i][j], x[i], x[j]);
+</h1>
+<p>
+Tacan odogovor:
+
+Saberi (y[i], x[i], x[i+1]); <br>
+Saberi (y, x[i], x[i+1]);</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>
+41. Dat je prototip funkcije napisan y programskom jeziku C:
+
+void Umetni(char *a, char k);
+U main funkciji date su sledeće deklaracije promenljivih:
+char sl[20], *s2, s3;
+
+Zaokruziti brojeve ispred ispravno napisanih poziva deklarisane funkcije:
+<br> 1. Umetni(s2, sl[i]); <br>
+2. Umetni(s2, sl); <br>
+3. Umetni(s2, \A'); <br>
+4. Umetni(s1, s3); <br>
+5. Umetni(*s2, s3); <br>
+6. Umetni(53, &51);
+</h1>
+<p>
+Tacan odogovor: <br>
+Umetni(s2, sl[i]); <br>
+Umetni(s2, sl); <br>
+Umetni(&s3, 'A'); <br>
+Umetni(s2, s3); <br>
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>42. Data su naredba deklaracije, a zatim i naredba formatiranog unosa
+vrednosti u
+promenljive, napisana na programskom jeziku C:
+
+int x, y;
+scanf("%3i%3i", &x, &y);
+
+Sledi tastaturni unos u obliku: 12345 12345
+Za svaku promenljivu odrediti i na odgovarajuću liniju upisati, koju će
+vrednost
+promenljiva imati po izvršenju naredbi:</h1>
+<p>Tacan odogovor:<br>
+1. promenljiva x dobija vrednost x = 123 <br>
+2. promenljiva y dobija vrednost y = 451</p>
+
+</div>
+
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>
+43. Dati je deklaracija promenljivih int a=3 , b=15;
+
+Izračunati vrednost koju će promenljive imati po izvršenju sledeće naredbe:
+Tacan odogovor: <br></h1>
+<p>b %= ++ a; <br>
+a = 4 <br>
+b = 3</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>44. Odrediti vrednosti koje će promenljive h i u imati po izvršenju sledećeg
+koda:
+int x=10;
+int y=20;
+if(x>50)
+x–=10;
+y+=10;
+
+Upisati dobijene vrednosti na predviđene linije:</h1>
+<p>Tacan odogovor: <br>
+x= 10 y= 30
+</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>45. U programskom jezuku C deklarisane su dve celobrojne promenljive:
+int x=O, izbor;
+
+Za date vrednosti promeljive izbor, odredi vrednost promeljive h po
+izvršenju
+sledeće naredbe višestukog grananja i upisati ih na predviđene linije:
+
+switch(izbor){ <br>
+case l: x += 1; <br>
+case 2: x += 2; break; <br>
+case 3: x += 3; <br>
+default: x = 100, <br>
+case 4: x += 4; <br>
+case 5: x += 5;
+}</h1>
+<p>
+Tacan odogovor: <br>
+1. za izbor=3, x= 106 <br>
+2. za izbor=10, x= 100 <br>
+3. za izbor=4, x= 9 <br>
+4. za izbor=2, x= 14
+</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>
+46. Naredbama programskog jezika C deklarisana je pravougaona matrica i tri
+celobrojne
+promenljive:
+
+int mat[1O][20]; int x, N, M;
+gde N predstavlja broj vrsta, a M broj kolona pravougaone matrice mat.
+Dopuniti izrazima koji nedostaju kod petlje koja ima zadatak da duplira sve
+elemente
+poslednje kolone matrice: <br>
+
+for(x = 0; X < _____ ; x++) <br>
+mat[ ][ ] *= 2;</h1>
+<p>
+Tacan odogovor: <br>
+
+for(x = 0; x < N; x++) <br>
+mat[x][M-1] *= 2;
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+<h1>
+47. Data su sledeće deklaracije: int p[200] , i, n, k;
+
+A zatim i deo koda koji treba da iz niza r dužine n, sažimanjem IZBACI
+elemenat
+niza sa pozicije k, a zatim ažurira novu dužinu niza.
+Imajući u vidu datu inicijalizaciju petlje, u predviđena polja unesi
+odgovarajuće
+elemente prepisivanjem izraza iz liste ponuđenih izraza (podrazumevati da su
+sve
+potrebne promenljive inicijalizovane): <br>
+
+for(i=k; i _____ ; _____ ) <br>
+_____ = _____; <br>
+n--; <br>
+
+1. p[i+1] <br>
+2. p[i- 1] <br>
+3. p[i] <br>
+4. p[k] <br>
+5. i++ <br>
+6. i-- <br>
+7. manje od n <br>
+8. manje od n-1</h1>
+<p>Tacan odogovor: <br>
+
+
+for(i=k; i < n-1; i++) <br>
+p[i] = p[i+1];<br>
+n--;
+</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>48. Naredbama programskog jezika C deklarisana je pravougaona matrica i tri
+celobrojne
+promenljive:
+
+int mat[lO][20]; int k, N, M;
+gde N predstavlja broj vrsta, a M broj kolona pravougaone matrice mat.
+Dopuniti izrazima koji nedostaju kod petlje koja ima zadatak da duplira sve
+elemente
+prve vrste matrice: <br>
+
+for(k=0; k< _____ ; k++) <br>
+mat[ _____ ][ _____ ]*=2;</h1>
+<p>Tacan odogovor: <br>
+for(k=0; k < M; k++) <br>
+mat[0][k] *= 2;</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>
+49. Dati su izrazi formirani korišćenjem matematičkih operatora. Vodeći
+računa o
+tipovima podataka, odrediti vrednosti datih izraza i upisati ih liniju u
+produžetku.
+Ako izraz izaziva grešku, umesto vrednosti, napisati eggog:
+
+1. 10/4.= _____ <br>
+2. 10./5 = _____ <br>
+3.-10%3= _____ <br>
+4. 10.%5= _____ <br>
+5. 10%(-3)= _____ <br>
+6. (100/3) % 6 = _____ <br>
+
+Tacan odogovor: <br></h1>
+<p>10/4. = 2.5 <br>
+10./5 = 2.0 <br>
+-10%3 = -1 <br>
+10.%5 = 0 <br>
+10%(-3) = 1 <br>
+(100/3) % 6 = 2</p>
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>
+51. data su sledeće deklaracije: int p[200], i, n, k, x;
+A zatim i deo koda koji treba da u niz p dužine n UBACI (insertuje) elemenat
+x na
+poziciju k, a zatim ažurira novu dužinu niza.
+Imajući u vidu datu inicijalizaciju petlje, u predviđena polja unesi
+odgovarajuće
+elemente prepisivanjem izraza iz liste ponuđenih izraza (podrazumevati da su
+sve
+potrebne promenljive inicijalizovane): <br>
+
+for(i=n; i _____ ; _____ ) <br>
+_____ = _____ ; <br>
+_____ = x; <br>
+n++; <br>
+
+
+1. p[i + 1] <br>
+2. p [i - 1] <br>
+3. p[i] <br>
+4. p[l] <br>
+5. i++ <br>
+6. i-- <br>
+7. >=k <br>
+8. >k</h1>
+<p>
+Tacan odogovor: <br>
+for(i=n; i > k; i--) <br>
+p[i] = p[i - 1]; <br>
+p[k] = x; <br>
+n++;
+
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>52. U programskom jeziku C, date su sledeće deklaracije: int A[50] , i , n;
+Potrebno je formirti vektor sa sledećim vrednostima: <br>
+i=0 i=1 i=2 i=3 i=4 i=5 i=n-1 <br>
+1 2 4 7 11 16 ???
+Dopuniti programski kod kojim se formira ovaj vektor: <br>
+A[O]=1; <br>
+f0r(i = _____ ; i _____ ; i++)
+_____ = _____ <br>
+</h1>
+<p>Tacan odogovor: <br>
+
+A[0] = 1; <br>
+for(i = 1; i < n; i++) <br>
+A[i] = A[i-1] + i;
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>
+53. U programskom jeziku C, deklarisane su i inicijalizovane promenljive:
+
+int x=4O, y=50, z=60, *p1, *p2;
+Odredi koje će vrednosti imati promenljive h, u i 2 posle izvršenja sledećeg
+koda i
+upiši na odgovarajuću liniju: <br>
+
+p1 = &x; <br>
+p2=pl; <br>
+U = (*p2)+20; <br>
+z = *p2; <br>
+x = _____ ; y = _____ ; z = _____ ;
+</h1>
+<p>
+Tacan odogovor: <br>
+x = 40 <br>
+y = 50 <br>
+z = 60
+</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>55. Dat je deo koda napisan na programskom jeziku C: <br>
+int a[7]={8l,12,35,97,40,52,l7}, *pa, h, y; <br>
+pa=a+3; <br>
+
+X = *(ra–2)+1; <br>
+y = (*pa-2)+l; <br>
+
+Analizirati kod i odrediti vrednosti promenljivih x |A y, kao i pokazivača
+ra, po
+izvršenju sve tri izvršne naredbe datog koda:
+
+Tacan odogovor:</h1>
+<p>
+x = 35 <br>
+y = 35 <br>
+pa pokazuje na element 97 u nizu a.
+</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>58. Sa leve strani dati su dopunski parametri u funkciji printf , a sa desne
+strane
+značenje tih parametara u programskom jeziku C. Na liniju ispred značenja
+uneti broj
+kojim je označen odgovarajući dopunski parametar:
+
+označava da će se poravnavanje vršiti uz levu ivicu
+polja širine n znakova, dopunski znakovi razmaka dodaju
+
+
+1. (#) se iza, a ne ispred podatka
+
+označava da se ispred pozitivnog broja mora ispisati
+2. (O) znak plus
+
+nula kod numeričkih podataka označava da će se prilikom
+ravnanja uz desnu ivicu broj dopunjavati nulama, a ne
+3. (·) znakovima razmak
+
+ispisuje se decimalna tačka u konverziji racionalnih
+4. (+) brojeva koji nemaju razlomljeni deo.</h1>
+<p>
+Tacan odogovor: <br>
+
+(#) se iza, a ne ispred podatka - 3 <br>
+(O) znak plus - 1 <br>
+(·) znakovima razmak - 2 <br>
+(+) brojeva koji nemaju razlomljeni deo - 4
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>71. Dati su tipovi promenljivih y programskom jeziku C#. Odrediti kako se
+naziva
+promenljiva koja je definisana unutar nekog metoda.
+Zaokružiti broj ispred očekivanog odgovora: <br>
+
+1. Globalna promenljiva <br>
+2. Statička promenljiva <br>
+3. Blokovska promenljiva <br>
+4. Lokalna promenljiva</h1>
+<p> Tacan odogovor: <br>
+
+Lokalna promenljiva</p>
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+
+<h1>72. Odrediti kakvi mogu biti članovi klase (polja |A metode) u programskom
+jeziku S#.
+Zaokružiti broj ispred očekivanog odgovora: <br>
+
+1. Lokalni i globalni <br>
+2. Proceduralni i neproceduralni <br>
+3. Statički (klasni) i nestatički (objektni) <br>
+4. Spoljašnji i unutrašnji</h1>
+<p> Tacan odogovor: <br>
+
+Statički (klasni) i nestatički (objektni)</p>
+
+
+</div>
+
+
+
+
+<div class="qa-container">
+
+
+
+<h1>73. Odrediti koja polja su zajednička i jedinstvena za sve kreirane objekte
+neke klase
+definisane u objektno orijentisanom programskom jeziku S#.
+Zaokružiti broj ispred očekivanog odgovora: <br>
+
+Javna <br>
+Privatna <br>
+Objektna <br>
+Instancna <br>
+Statička</h1>
+<p> Tacan odogovor: <br>
+
+Objektna</p>
+
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>74. U programskom jeziku S# klasa može da sadrži statička i ne-statička
+(instancna)
+polja. Date su izjave koje se odnose na statička polja klase i među njih je
+umetnuta
+jedna izjava koja se odnosi na ne-statička (instancna) polja klase.
+Zaokružiti broj ispred izjave koja se odnosi na ne-statička polja klase:
+<br>
+
+Polje koje se može se koristiti bez konstruisanja ijednog objekta te klase
+<br>
+Polje koje ima istu vrednost za sve kreirane objekte neke klase <br>
+Polje čija se vrednost može razlikovati za svaki pojedinačni objekat neke
+klase <br>
+Polje koje se može koristiti unutar statičkih metoda klase, kao i unutar
+metoda
+instance
+</h1>
+<p>Polje čija se vrednost može razlikovati za svaki pojedinačni objekat neke
+klase</p>
+
+
+</div>
+
+
+
+
+<div class="qa-container">
+
+
+
+<h1>75. Zaokružiti broj ispred iskaza koji predstavlja ispravan nastavak date
+tvrdnje:
+Pri kreiranju objekata izvedene klase... <br>
+
+1. izvršava se samo konstruktor izvedene klase <br>
+2. prvo se izvršava konstruktor roditeljske klase, ali samo ako je pozvan
+ključnom
+rečju base <br>
+3. obavezno se prvo izvršava konstruktor izvedene, a potom konstruktor
+roditeljske
+klase <br>
+4. obavezno se prvo izvršava konstruktor roditeljske, a potom konstruktor
+izvedene
+klase</h1>
+<p>prvo se izvršava konstruktor roditeljske klase, ali samo ako je pozvan
+ključnom rečju base</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>
+76. U programskom jeziku C# koristi se službena reč base. Proceniti koji od
+narednih
+iskaza koji definišu datu službenu reč NIJE tačan.
+
+Zaokružiti broj ispred očekivanog odgovora: <br>
+
+1. Službena reč base može poslužiti za pozivanje konstruktora roditeljske
+klase. <br>
+2. Službena reč base može poslužiti za pozivanje privatnih metoda
+roditeljske <br>
+klase kojima se drugačije ne može pristupiti. <br>
+3. Službena reč base može poslužiti za pozivanje zaklonjenog metoda
+roditeljske
+klase. <br>
+4. Službena reč base može poslužiti za pozivanje zaklonjenog polja
+roditeljske
+klase.</h1>
+<p>Službena reč base može poslužiti za pozivanje privatnih metoda roditeljske
+klase kojima se drugačije ne može pristupiti.</p>
+
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>77. Dat je kod programa u programskom jeziku C#:
+
+namespace TestPrimer {
+class Program {
+
+static void Main(string[] args)
+{
+Console.WriteLine(fun(l7));
+}
+public int fun(int n) { return n; }
+public void fun(int n){ Console.WriteLine(n); }
+
+}
+
+Analizirati kod i zaokružiti broj ispred očekivanog odgovora: <br>
+
+
+1. Program ima grešku, jer se ne može odrediti koju verziju preopterećenog
+metoda
+fun(...) treba pozvati. <br>
+2. Program ima grešku, jer je druga verzija preopterećenog metoda fun(...)
+definisana
+ali se nigde ne poziva. <br>
+3. Program se normalno izvršava i prikazuje 17 jedanput. <br>
+4. Program se normalno izvršava i prikazuje 17 dvaput.</h1>
+<p>Program ima grešku, jer je druga verzija preopterećenog metoda fun(...)
+definisana ali se nigde ne poziva.</p>
+
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>78. Dat je kod programa u programskom jeziku C# koji formira i štampa
+elemente niza a.
+Analizirati dati kod i proceniti šta će se dogoditi nakon njegovog
+izvršavanja.
+
+namespace TestPrimer {
+class Program {
+static void Main(string[] args){
+
+int[] a = new int[5];
+for (int i = 0; i < a.Length; i++) a[i]=i; Console.Write(a[i] + " " ); }
+Zaokruziti broj ispred očekivanog odgovora: <br>
+
+1. Program prikazuje brojeve 0 1 2 3 4 na ekranu. <br>
+2. Program ima grešku, jer će u poslednjoj naredbi Console.Write metoda
+Main
+pokušati pristup nepostojećem elementu a[5]. <br>
+3. Program prikazuje broj 5 na ekranu. <br>
+4. Program ima grešku, jer promenljiva i y poslednjoj naredbi
+Console.Write y
+metodu Main Hehe imati definisanu vrednost.</h1>
+<p>Program ima grešku, jer će u poslednjoj naredbi Console.Write metoda Main
+pokušati pristup nepostojećem elementu a[5].</p>
+
+
+
+</div>
+
+
+
+
+<div class="qa-container">
+
+
+<h1>79. U programskom jeziku S# data je deklaracija niza:
+
+int k;
+int[ ] brojevi = {5, 12, 37, 7, 27, 33, 36};
+
+Na osnovu date deklaracije odrediti sta je rezultat poziva
+k=Arrays.BinarySearch(brojevi, 37);
+Zaokruziti broj ispred očekivanog odgovora:
+
+1. k=0, jep metod BinarySearch prvo izvrši sortiranje niza y opadajućem
+redosledu,
+pa onda traži zadatu vrednost
+2. metod BinarySearch baca izuzetak uvek kada je niz neuređen i program
+„puca“
+3. k=2, jep ce traženi elemenat nalazi na poziciji 2
+4. k dobija neočekivanu vrednost jer niz mora biti sortiran u rastućem
+poretku pre
+poziva metode BinarySearch
+5. k=6, jep metod BinarySearch prvo izvrši sortiranje niza u rastućem
+redosledu, pa
+onda traži zadatu vrednost
+</h1>
+<p>k dobija neočekivanu vrednost jer niz mora biti sortiran u rastućem poretku
+pre poziva metode BinarySearch</p>
+
+
+</div>
+
+
+
+<div class="qa-container">
+
+
+
+
+<h1>81. Dat je kod u programskom jeziku S#, koji definiše rekurzivni metod.
+Analizirati kod
+i odrediti rezultat izvršavanja zadatog metoda.
+
+public long fun(int n){
+return n * fun(n – 1);
+}
+
+Zaokružiti broj ispred očekivanog odgovora:
+
+Rezultat poziva fun(3) je 1.
+Rezultat poziva fun(3) je 2.
+Rezultat poziva fun(3) je 6.
+
+Poziv fun(3) izaziva grešku jer proizvodi beskonačan lanac poziva istog
+metoda
+fun(...).</h1>
+<p>Rezultat poziva fun(3) je 6.</p>
+
+
+</div>
+
+
+
+<div class="qa-container">
+
+
+
+
+<h1>82. Dat je kod y programskom jeziku S#, koji definiše rekurzivni metod.
+Analizirati kod
+i odrediti rezultat koji će se prikazati na ekranu.
+
+namespace TestPrimer {
+class Program {
+static void Main(string[] args) {
+fun(2);
+}
+
+public static void fun(int n) {
+
+while (n > 1) {
+Console.Write((n – 1) + " ");
+fun(n – 1);
+}
+}
+}
+
+Zaokružiti broj ispred očekivanog odgovora:
+
+Program na ekranu ne prikazuje ništa
+Program na ekranu prikazuje 1 2 3
+Program na ekranu prikazuje 3 2 1.
+Program na ekranu beskonačno prikazuje 1 1 1 1 1
+Program na ekranu beskonačno prikazuje 2 2 2 2 2</h1>
+<p> Tacan odogovor:
+
+Program na ekranu prikazuje 1 1 1 1 1.</p>
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+
+<h1>83. U programskom jeziku C# dat je rekurzivni metod koji proverava da li je
+neki string
+palindrom. Da bi kod bio kompletiran potrebno je dopuniti treći red uslovom
+if
+naredbe.
+
+1 public static bool palindrom(String s)
+2. {
+3. if (s.Length <= 1) return true; //bazni slučaj 4 else if ( ______ )
+return false; 5 else return palindrom(s.Substring(l, s.Length – 2)); 6.
+} Zaokružiti broj ispred očekivanog odgovora: 1. s[O] !=s[s.Length – 1]
+2. s[O] !=s[s.Length] 3. s[l] !=s[s.Length – 1] 4. s[l]
+!=s[s.Length]</h1>
+<p>
+s[1] != s[s.Length – 1]</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+
+<h1>84. U programskom jeziku S# dat je rekurzivni metod koji proverava
+da li je neki string
+palindrom. Da bi kod bio kompletiran potrebno je dopuniti sedmi red.
+
+1. public static bool Palindrom(String s){
+2. return Palindrom(s, 0, s.Length - 1);
+3.}
+4. public static bool Palindrom(String s, int levi, int desni){
+5. if (desni<=levi) return true; 6. else if (s[levi] !=s[desni])
+return false 7. else return _______; 8.} Zaokružiti broj ispred
+očekivanog odgovora: 1. Palindrom(s) 2. Palindrom(s, levi,
+desni) 3. Palindrom(s, levi + 1, desni – 1) 4. Palindrom(s, levi
++ 1, desni) 5. Palindrom(s, levi, desni – 1)</h1>
+<p>Palindrom(s, levi + 1, desni – 1)
+</p>
+
+
+
+
+
+<div class="qa-container">
+
+
+
+
+
+<h1>85. U programskom jeziku S# dat je rekurzivni metod za
+binarno pretraživanje sortiranog
+celobrojnog niza. Da bi kod bio kompletiran potrebno je
+dopuniti deveti red (označen
+linijom) pomoću ponuđenog odgovora.
+
+1. public static int TraziBroj(int[] niz, int broj) {
+2. return TraziBroj(niz, broj, 0, niz.Length – 1);
+3. }
+4. public static int TraziBroj(int[] niz,int broj,int
+levi,int desni) {
+5. if(levi > desni) return —1; // broj nije nadjen u nizu
+6. int sredina = (levi + desni) / 2;
+7. if(broj < niz[sredina]) return TraziBroj(niz, broj,
+levi,sredina—1); 8. else if(broj> niz[sredina]) return ;
+9. else return sredina;
+1O. }
+
+Zaokruziti broj ispred očekivanog odgovora:
+
+1. TraziBroj niz, broj, sredina + 1, levi)
+2. TraziBroj niz, broj, sredina – 1, levi)
+3. TraziBroj niz, broj, desni, sredina + 1)
+4. TraziBroj niz, broj, sredina + 1, desni)</h1>
+<p>TraziBroj(niz, broj, sredina + 1, desni)</p>
+
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+
+<h1>86. Dat je kod programa y programskom jeziku S#. Analizirati
+dati kod i proceniti njegovu
+tačnost. Zaokružiti broj ispred ponuđenog tačnog iskaza:
+
+namespace TestPrimer {
+class Test {
+int x;
+public Test(string s){
+Console.WriteLine("Klasa Test");
+}
+static void Main(string[] args){
+Test t = null;
+Console.WriteLine(t.x);
+
+}
+}
+}
+
+
+1. Program ima greškujer promenljiva h nije inicijalizovana.
+2. Program ima greškujer klasa Test nema podrazumevani
+konstruktor.
+3. Program ima grešku jer se u nekoj klasi ne može
+deklarisati promenljiva tipa te
+iste klase, kao što je to ovde slučaj sa promenljivom t.
+4. Program ima grešku jer promenljiva t nije inicijalizovana
+i ima vrednost null y
+momentu kada se prikazuje polje t.x .
+5. Program nema grešaka i normalno se izvršava, ne
+prikazujući ništa na ekranu.</h1>
+<p>Program ima grešku jer promenljiva t nije inicijalizovana i
+ima vrednost null u trenutku kada se prikazuje polje t.x.
+</p>
+
+
+</div>
+
+
+
+<div class="qa-container">
+
+
+
+
+<h1>
+87. Data je definicija klase u programskom jeziku C#.
+Proceniti gde u definiciji klase
+(ispred koje metode) treba zameniti znakove ??? službenom
+rečju static.
+
+public class Test {
+private int broj;
+public ??? int kvadrant(int n) { return n * n; }
+public ??? int getBroj() { return broj; }
+}
+
+
+Zaokružiti broj ispred tačne izjave:
+1.Metoda kvadrant MOPA da bude statička, dok metoda getBroj
+može i ne mora.
+2.Obe metode moraju biti statičke.
+3.Ni jedna od definisanih metoda nije statička.
+4.Metoda getBroj HE CME da bude statička, dok metoda
+kvadrant može i ne mora.</h1>
+<p>Metoda kvadrant može da bude statička, dok metoda getBroj
+može i ne mora.</p>
+
+<h1>88. Data je definicija klase y programskom jeziku S# i
+sastoji se od dva konstruktora,
+metode i polja h i u. U šestom redu napisati konstruktor
+kopije objekta klase Point.
+
+1. public class Point {
+2. private double x, y;
+3. public Point() { x = 0; y = 0; }
+4. public void Set(double xx, double yy){ x=xx; y=yy; }
+5. public Point(Point p) {
+6. _________ //Odgovor
+7. }
+8. }
+
+Zaokružiti broj ispred očekivanog odgovora:
+
+1. this(p.x, p.y);
+2. this(p);
+3. Set(p);
+4. Set(p.x, p.y);</h1>
+<p>this(p.x, p.y);</p>
+
+</div>
+
+
+
+
+<div class="qa-container">
+
+
+<h1>89. Dat je kod programa u programskom jeziku S# kojim su
+definisane dve klase: class
+Program Koja sadrži Main(string[] args) metodu i class
+KlasaA. Analizirati dati
+kod i odrediti da li je kod ispravno napisan. Ponuđeni
+odgovori daju opis posledica
+izvršavanja ovog koda. Zaokružiti broj ispred tačnog iskaza.
+
+class Program {
+public static void Main(string[] args){
+KlasaA al = new KlasaA ();
+KlasaA a2 = new KlasaA ();
+Console.WriteLine(a1.Equals(a2));
+}
+}
+class KlasaA {
+int x;
+public bool Equals(KlasaA a){
+return this.x == a.x;
+}
+}
+
+1. Program ima grešku, jer se izrazom a1.Equals(a2)
+proverava jednakost objekata a1 i a2 različitog tipa od
+Object.
+2. Program ima grešku, jer se jednakost objekata a1 i a2
+tipa KlasaA proverava izrazom a1 == a2.
+3. Program se izvršava bez greške i prikazuje se true na
+ekranu.
+4. Program se izvršava bez greške i prikazuje se false na
+ekranu.</h1>
+<p>Program se izvršava bez greške i prikazuje se false na
+ekranu.</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+
+
+<h1>
+90. Dat je kod programa y programskom jeziku S# kojim su
+definisane dve klase: class
+Program Koja sadrži Main(string[] args) metodu i class
+KlasaA. Analizirati dati
+kod i odrediti da li je kod ispravno napisan. Ponuđeni
+odgovori daju opis posledica
+izvršavanja ovog koda. Zaokružiti broj ispred tačnog iskaza.
+
+class Program {
+public static void Main(string[] args){
+Object a1 = new KlasaA();
+Object a2 = new KlasaA();
+Console.WriteLine(a1.Equals(a2));
+}
+}
+class KlasaA {
+int x;
+public bool Equals(KlasaA a){
+return this.x == a.x;
+
+}
+
+1. Program ima grešku, jer se izrazom a1.Equals(a2)
+proverava jednakost objekata a1 i
+a2 različitog tipa od Object.
+2. Program ima grešku, jer se jednakost objekata a1 i a2
+tipa KlasaA proverava
+izrazom a1 == a2.
+3. Program se izvršava bez greške i prikazuje se true na
+ekranu.
+4. Program se izvršava bez greške i prikazuje se false na
+ekranu.</h1>
+<p>Program se izvršava bez greške i prikazuje se false na
+ekranu.</p>
+
+
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>91. Dat je kod programa y programskom jeziku C# y kom su
+definisane tri klase: class
+Program Koja sadrži Main(string[] args) metodu, class A |A
+class B. Analizirati dati kod i
+odrediti da li je kod ispravno napisan.
+
+Zaokružiti broj ispred iskaza koji daje informaciju o
+tačnosti koda.
+
+class Program {
+public static void Main(string[] args) {
+B b = new B();
+b.Metod(5);
+Console.WriteLine("b.i je " + b.CitajI());
+}
+}
+class A {
+int i;
+public int Citajl(){return i;}
+public void Metod(int i) { this.i = i; }
+}
+class B : A {
+public void Metod(string s){
+Console.WriteLine(s);
+
+}
+
+1. Program ima grešku, jer je metod Metod(int i) nadjačan
+(predefinisan) sa
+različitim potpisom y klasi B.
+2. Program ima grešku, jer se b.Metod(5) ne može pozvati
+pošto je metod Metod(int i)
+zaklonjen y klasi B.
+3. Program ima grešku zbog b.i, jep je polje i nepristupačno
+iz klase B.
+4. Program nema greške, jer nasleđeni metod klase A,
+Metod(int i) nije nadjačan y
+klasi B, već je definisan preopterećen metod Metod(string
+s).</h1>
+<p>Program ima grešku, jer je metod Metod(int i) nadjačan
+(predefinisan) sa različitim potpisom u klasi B.
+</p>
+
+
+</div>
+
+
+
+<div class="qa-container">
+
+
+<h1>92. Dat je deo koda koji je napisan na S# programskom
+jeziku. Analizirati kod i odrediti
+šta će se prikazati na izlazu.
+
+try
+{
+
+int x = O;
+int y = 5 / x;
+}
+
+catch (Exception e)
+{
+Console.WriteLine("Exception");
+}
+
+catch (ArithmeticException ae)
+
+{
+Console.WriteLine(" Arithmetic Exception");
+}
+
+Console.WriteLine("finished");
+
+Zaokruži broj ispred tačnog odgovora:
+
+
+1. Prikazuje se tekst: finished
+2. Prikazuje se tekst: Exception
+3. Ništa. Dešava se greška prilikom kompajliranja
+4. Prikazuje se tekst: Arithmetic Exception</h1>
+<p>Ništa. Dešava se greška prilikom kompajliranja.</p>
+
+
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>93. Zaokružiti broj ispred iskaza koji predstavlja ispravan
+nastavak date rečenice:
+
+Ako try-catch naredba ima više catch blokova u kojima
+“hvatamo“ izuzetak osnovne
+Exception klase, zajedno sa izuzecima drugih klasa izvedenih
+iz klase Exceptions...
+
+1. onda se izuzetak osnovne Exception klase može „hvatati“ u
+bilo kom catch bloku
+(redosled nije bitan, bitno je da se navedu sve moguće
+greške)
+2. onda se izuzetak osnovne Exception klase mora „hvatati“ u
+poslednjem catch bloku 2
+3. onda se izuzetak osnovne Exception klase mora „hvatati“ u
+prvom catch bloku
+4. osnovna Exception klasa se ne kombinuje u istoj naredbi
+sa klasama izvedenim iz nje jer ih osnavna klasa „maskira“
+</h1>
+<p>onda se izuzetak osnovne Exception klase može „hvatati“ u
+bilo kom catch bloku</p>
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+<h1>94. Dati su izkazi koji se odnose na pravila pisanja
+try-catch-finally blokova za rukovanje
+izuzetima. Zaokružiti brojeve ispred iskaza koji su tačni:
+
+
+1. Blok try mora imati bar jedan catch ili jedan finally
+blok
+2. Blok try može imati više catch blokova
+3 Ako blok try ima više catch blokova, izuzetak osnovne
+Exception klase mora se hvatati u prvom catch bloku
+4. Ako blok try ima više catch blokova, bitan je redosled
+njihovog pisanja '
+5. Blok try mora imati bar jedan finally blok
+6. Blok try He sme da ima više catch blokova</h1>
+<p> Tacan odogovor: <br>
+
+Blok try mora imati bar jedan catch ili jedan finally blok.
+<br>
+Blok try može imati više catch blokova. <br>
+Blok try mora imati bar jedan finally blok.
+</p>
+
+
+</div>
+
+
+
+
+<div class="qa-container">
+
+<h1>
+95. Da bi nasleđeni metod mogao da se redefiniše i time
+izmeni njegova
+funkcionalnost y klasama naslednicama, y roditeljskoj klasi
+ispred oznake povratnog
+tipa metoda navodi se neka od ponuđenih ključnih reči.
+
+Zaokružiti brojeve ispred ključnih reči koje omogućavaju
+redefinisanje definisanog
+metoda kroz lanac nasleđivanja:
+
+1.new
+2.virtual
+3.sealed
+4.override
+5.abstract
+6.base
+7.dovoljno je da bude public ili protected</h1>
+<p> Tacan odogovor: <br>
+
+virtual <br>
+override <br>
+abstract
+</p>
+
+
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>96. Data je naredba koda u programskom jeziku S# koja
+predstavlja deklaraciju niza.
+Proceniti koje od dole navedenih deklaracija su tačne.
+
+Zaokružiti brojeve ispred očekivanih odgovora:
+
+1.int niz = new int(30);
+2.double[ ] niz = new double[30];
+3.int[] niz = { 3, 4, 3, 2 };
+4.char[ ] niz = new char[ ];
+5.char[ ] niz = new char { 'a', 'b', 'c', 'd' };
+6.char[] niz = new char[ ] { 'a', 'b' };</h1>
+<p>
+Tacan odogovor: <br>
+
+double[ ] niz = new double[30]; <br>
+int[] niz = { 3, 4, 3, 2 }; <br>
+char[] niz = new char[ ] { 'a', 'b' };</p>
+
+
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>97. Dat je kod na C#-u kojim su kreirane tri klase u lancu
+nasleđivanja. Imajući u vidu
+klasifikatore pristupa poljima klasa, zaokružiti brojeve
+ispred polja koja će biti
+vidljiva unutar klase Sin:
+
+public class Deda {
+private double penzija;
+protected string adresa;
+public string ime;
+}
+
+public class Otac: Deda {
+private double plata;
+protected string struka;
+}
+
+public class Sin: Deda {
+public int razred;
+}
+
+1. penzija
+2. adresa
+3. ime
+4. plata
+5. struka
+6. razred</h1>
+<p> Tacan odogovor: <br>
+
+penzija <br>
+adresa <br>
+ime <br>
+razred
+</p>
+</div>
+
+
+
+
+
+
+<div class="qa-container">
+
+<h1>98. Dat je kod na C#-u kojim su kreirane tri klase y lancu
+nasleđivanja. Unutar svake klase
+deklarisan je po jedan private, public i protected atribut.
+U metodi Main() klase Program
+kreiran je objekat s klase Sin (Sin s = new Sin () ;)
+Zaokruzi brojeve ispred polja
+koja će biti vidljiva y kreiranom objektu s klase Sin:
+
+
+public class Deda {
+
+
+private double penzija;
+protected string adresa;
+public string ime;
+}
+
+public class Otac: Deda {
+
+private double plata;
+protected string firma;
+public string struka;
+}
+
+public class Sin: Otac {
+private double prosek;
+protected int razred;
+public string skola;
+}
+
+1. penzija
+2. adresa
+3. ime
+4. plata
+5. struka 145
+6. firma
+7. prosek
+8. razred
+9. skola</h1>
+<p> Tacan odogovor: <br>
+
+penzija <br>
+adresa <br>
+ime <br>
+plata <br>
+struka <br>
+firma <br>
+prosek <br>
+razred <br>
+skola
+</p>
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+<h1>99. Data je definicija klase y programskom jeziku C# i
+sastoji se od dva konstruktora,
+metode i polja h i u. U petom redu definisan je konstruktor
+sa parametrima koji
+formira tačku sa koordinatama h i u. Zaokružiti naredbe
+kojima se može dopuniti
+definicija konstruktora:
+
+
+
+1 public class Point {
+2 private double x, y;
+3. public Point() { x = 0; y = 0; }
+4. public void set(double hh, double yy) { x = xx; y = yy; }
+5 public Point(double x, double y) { ; } 2
+6. }
+
+Zaokružiti brojeve ispred tačnih odgovora:
+1. this.x=x; this.y=y;
+2. x=x; y=y;
+3. set(x,y);
+4. set(this.x,this.y);
+5.x=this.x; y=this.y;</h1>
+<p> Tacan odogovor: <br>
+
+this.x=x; this.y=y; <br>
+set(this.x,this.y);</p>
+
+</div>
+
+
+
+
+
+<div class="qa-container">
+
+<h1>101. Date su naredbe y programskom jeziku C# koje definišu
+zaglavlje metode Print() sa
+promenljivim brojem parametara. Odrediti koji od ponuđenih
+odgovora su ispravni.
+Zaokružiti brojeve ispred očekivanih odgovora:
+
+1.public void Print(params string[] niska, params double[]
+broj)
+2.public void Print(params double[] broj, string niska)
+3.public void params Print(double dl, double d2)
+4.public void Print(params double[] broj)
+5.public void Print(int n, params double[] broj)</h1>
+<p> Tacan odogovor: <br>
+public void Print(params double[] broj) <br>
+public void Print(int n, params double[] broj)</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>102. Data je definicija klase u programskom jeziku S# i
+sastoji se od dva konstruktora,
+jedne metode i polja h. U definiciji se koristi službena reč
+this. Analizirati dati
+kod i proceniti tačnost sledećih iskaza. Zaokružiti brojeve
+ispred tačnih iskaza:
+
+class TestPrimer {
+public double x;
+public TestPrimer(double x){
+this.fun();
+this.x = x;
+}
+public TestPrimer(){
+Console.WriteLine("Podrazumevani konstruktor");
+this(23);
+}
+public void Fun(){
+Console.WriteLine("Poziv metoda fun()");
+}
+}
+
+
+1. this.Fun() y KOHCprKTOpy TestPrimer(doubIe h) može se
+pojednostaviti i zameniti samo
+sa Fun().
+2. this.x y KOHCprKTOpy TestPrimer(doubIe h) može se
+pojednostaviti i zameniti samo sa x.
+3. poziv konstruktora this(23) unutar drugog konstruktora
+TestPrimer() je prvo šta se
+izvršava i mora se pisati odmah posle deklaracije public
+TestPrimer():this(23)
+4. this(23) y konstruktoru Test() mora se zameniti sa
+preciznijim izrazom this(23.0).
+</h1>
+<p> Tacan odogovor: <br>
+
+this.x u konstruktoru TestPrimer(double x) može se
+pojednostaviti i zameniti samo sa x. <br>
+Poziv konstruktora this(23) unutar drugog konstruktora
+TestPrimer() je prvo što se izvršava i mora se pisati odmah
+posle deklaracije public TestPrimer() : this(23).
+</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>103. Dati su iskazi koji u programskom jeziku S# definišu
+konstruktor.
+Zaokružiti brojeve ispred očekivanih odgovora:
+
+1. Podrazumevani konstruktor bez parametara se uvek
+automatski dodaje klasi.
+2. Podrazumevani konstruktor bez parametara se klasi
+automatski dodaje ukoliko u njoj
+nije eksplicitno definisan nijedan konstruktor.
+3. U klasi se mora eksplicitno definisati bar jedan
+konstruktor.
+4. Konstruktori nemaju tip rezultata, čak ni void.
+
+
+</h1>
+<p>Tačni odgovori su: <br>
+
+Podrazumevani konstruktor bez parametara se uvek automatski
+dodaje klasi. <br>
+Podrazumevani konstruktor bez parametara se klasi automatski
+dodaje ukoliko u njoj nije eksplicitno definisan nijedan
+konstruktor.
+<br>U klasi se mora eksplicitno definisati bar jedan
+konstruktor.
+</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>104. Zaokružiti brojeve ispred navedenih članova klase koji
+se ni pod kojim uslovima C
+nasleđuju sa roditeljske klase na izvedenu klasu:
+
+1.Readonly svojstva
+2.Zaštićeni članovi klasa
+3.Svojstva (property)
+4.Privatni članovi klasa
+5.Konstruktor klase</h1>
+<p>
+Tacan odogovor: <br>
+
+Readonly svojstva <br>
+Privatni članovi klasa <br>
+Konstruktor klase
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>105. Dat je kod programa y programskom jeziku S#. Kod sadrži
+objekte dve klase y kojima je
+definisan metod ToStringO. Analizirati kod datog programa i
+odrediti koji od datih
+iskaza su tačni.
+
+namespace TestPrimer {
+class Program {
+static void Main(string[] args) {
+Object a = new Klasa();
+Object obj = new Object();
+Console.WriteLine(a);
+Console.WriteLine(obj);
+}
+}
+}
+class Klasa{
+int x;
+public override string ToString() {return "x u A je " + x;}
+}
+
+Zaokruzi brojeve ispred očekivanih odgovora:
+1. Program ima grešku, jer naredbu Console.WriteLine(a)
+treba zameniti naredbom
+Console. WriteLine(a. ToString() ).
+2. Prilikom izvršavanja naredbe Console.WriteLine(a),
+program poziva se metod
+ToString() nasleđen iz klase Object.
+3. Prilikom izvršavanja naredbe Console.WriteLine(a),
+program poziva metod
+ToString() iz klase Klasa.
+4. Prilikom izvršavanja naredbe Console.WriteLine(obj),
+program poziva metod
+ToString() iz klase Object.
+</h1>
+<p>
+Tacan odogovor: <br>
+
+
+Prilikom izvršavanja naredbe Console.WriteLine(a), program
+poziva se metod ToString() nasleđen iz klase Object. <br>
+Prilikom izvršavanja naredbe Console.WriteLine(obj), program
+poziva metod ToString() iz klase Object.
+</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>106. U programskom jeziku S# data je deklaracija dve klase:
+KlasaA |A KlasaB Koja nasleđuje
+klasu KlasaA. Analizirati date klase i proceniti koji od
+ponuđenih iskaza su tačni.
+
+namespace TestPrimer {
+class Program {
+static void Main(string[] args) {
+KlasaB b = new KlasaB();
+b.Print();
+}
+}
+class KlasaA {
+string s;
+public KlasaA(string s) { this.s = s; }
+public void Print() { Console.WriteLine(this.s); }
+}
+class KlasaB :KlasaA{ }
+}
+
+
+Zaokruzi brojeve ispred očekivanih odgovora:
+1. Program ima grešku, jer KlasaB nema podrazumevani
+konstruktor KlasaB().
+2. Program ima grešku jer KlasaB ima podrazumevani
+konstruktor, dok roditeljska
+KlasaA nema takav konstruktor. Program bi radio bez greške
+ukoliko bi se uklonio
+konstruktor sa parametrima iz KlasaA.
+3. Program ima grešku koja se može otkloniti ukoliko bi se u
+KlasaA eksplicitno
+dodao konstruktor bez parametara KlasaA().
+4. Program nema grešku, izvršava se, ali se na konzoli ništa
+ne ispisuje jer je polje
+s</h1>
+<p> Tacan odogovor: <br>
+
+Program ima grešku koja se može otkloniti ukoliko bi se u
+KlasaA eksplicitno dodao konstruktor bez parametara
+KlasaA().
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>107. U klasi Figura dat je podrazumevani (deafult)
+konstruktor i konstruktor sa 4 parametra:
+
+public Figura() {...}
+public Figura(string ime, string boja, int pozX, int pozY)
+{...}
+
+Zaokruzi brojeve ispred ispravno napisanih naredbi kreiranja
+objekata klase Figura:
+1. Figura f = Figura("lovac", "beli", 7, 3); 3
+2. Figura f = new Figura("beli", "lovac", 7, 3);
+3. Figura f = new Figura();
+4. Figura f = new Figura("lovac", 3, 7, "beli");
+5. Figura f = new Figura("lovac", "beli", 3, 7);
+6. Figura f = new Figura("lovac", "beli", 3);
+
+</h1>
+<p> Tacan odogovor: <br>
+
+Figura f = new Figura("beli", "lovac", 7, 3); <br>
+Figura f = new Figura(); <br>
+Figura f = new Figura("lovac", "beli", 3, 7);
+
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>108. Date su započete izjave koje se odnose na delove koda
+za obradu izuzetaka. Dovršiti
+započete rečenice:</h1>
+<p>
+
+Tacan odgovor: <br>
+1. Naredbe koje se izvršavaju u slučaju nastanka greške
+stavljaju se unutar bloka catch <br>
+2. Naredbe koje se izvršavaju i ako se desi i ako se ne desi
+greška stavljaju se unutar bloka finaly <br>
+3. Naredbe koje mogu uzazvati grešku stavnjaju se unutar
+bloka try
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>109. Na programskom jeziku C# definisane su dve klase:
+
+public class Racun {
+public virtual int Uvecaj() { return lO; }
+}
+public class Dinarski: Racun {
+public override int Uvecaj() { return 20 * base.Uvecaj(); }
+}
+public class Devizni : Racun {
+public override int Uvecaj() { return 50 + base.Uvecaj(); }
+}
+
+Unutar funkcije Main, kreirana su tri objekta ovih klasa na
+sledeći način:
+Racun r = new Racun();
+Racun rDin = new Dinarski();
+Racun rDev = new Devizni();
+
+Analizirati kod i na predviđene linije upisati šta metod
+Džuesaj() vraća pri pozivu
+iz navedenih objekata:
+
+r.Uvecaj(); ______
+rDin.Uvecaj(); ________
+rDev.Uvecaj(); _______</h1>
+<p> Tacan odogovor: <br>
+
+r.Uvecaj(); // Vraća: 10 <br>
+rDin.Uvecaj(); // Vraća: 200 <br>
+rDev.Uvecaj(); // Vraća: 60
+</p>
+
+
+</div>
+
+
+
+<div class="qa-container">
+<h1>110. Na programskom jeziku S# definisane su dve klase:
+
+public class Racun {
+public virtual int Uvecaj() { return lO; }
+}
+
+public class Dinarski: Racun {
+public override int Uvecaj() { return 20 * base.Uvecaj(); }
+}
+public class Devizni : Dinarski {
+public override int Uvecaj() { return 50 + base.Uvecaj(); }
+}
+
+Unutar funkcije Main, kreirana su tri objekta ovih klasa na
+sledeći način:
+
+Racun r = new Racun();
+Racun rDin = new Dinarski();
+Racun rDev = new Devizni();
+
+Analizirati kod i na predviđene linije upisati šta metod
+Džuesaj() vraća pri pozivu
+iz navedenih objekata:
+
+r.Uvecaj(); _____
+rDin.Uvecaj(); ______
+rDev.Uvecaj(); ______</h1>
+<p> Tacan odogovor: <br>
+
+r.Uvecaj(); // Vraća: 10 <br>
+rDin.Uvecaj(); // Vraća: 200 <br>
+rDev.Uvecaj(); // Vraća: 250</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>111. Na programskom jeziku S# definisane su dve klase:
+
+public class KlasaA {
+
+public virtual int Metod() { return lO; } }
+public class KlasaB : KlasaA {
+
+public override int Metod() { return 20; } }
+public class KlasaC : KlasaB {
+
+public new int Metod() { return 30; } }
+
+Kreirani su objekti ovih klasa i iz njih pozvana metoda
+Metod().
+Na predviđene linije upisati šta metod Metodo vraća pri
+pozivu iz navedenih objekata:
+
+KlasaA a = new KlasaA(); a.Metod() vraća vrednost ______
+KlasaB b = new KlasaB(); b.Metod() vraća vrednost ______
+KlasaA bb = new KlasaB(); bb.Metod() vraća vrednost ______
+KlasaC c = new KlasaC(); c.Metod() vraća vrednost ______
+KlasaB cc = new KlasaC(); cc.Metod() vraća vrednost ______
+KlasaA ccc = new KlasaC(); ccc.Metod() vraća vrednost ______
+</h1>
+<p> Tacan odogovor: <br>
+
+a.Metod() // Vraća: 10 <br>
+b.Metod() // Vraća: 20 <br>
+bb.Metod() // Vraća: 20 <br>
+c.Metod() // Vraća: 30 <br>
+cc.Metod() // Vraća: 20 <br>
+ccc.Metod() // Vraća: 10</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>112. Na programskom jeziku S# definisane su dve klase:
+
+public class Roditelj {
+public virtual void Poruka1(){ Console.WriteLine("Rl"); }
+public void Poruka2(){ Console.WriteLine("R2"); }
+}
+public class Dete: Roditelj {
+public override void Poruka1(){ Console.WriteLine("D1"); }
+public new void Poruka2(){ Console.WriteLine("D2"); }
+}
+
+
+Unutar funkcije Main kreirana su dva objekta ovih klasa na
+sledeći način:
+Dete x = new Dete();
+Roditelj y = new Dete();
+
+Proceniti efekat izvršenja navedenih poziva i na predviđene
+linije upisati šta će
+se videti na standardnom izlazu izvršenjem pozvanih metoda:
+
+
+x.Poruka1(); __________
+x.Poruka2(); __________
+y.Porukal(); __________
+y.Poruka2(); __________
+</h1>
+<p> Tacan odogovor: <br>
+
+x.Poruka1(); // Vraća: D1 <br>
+x.Poruka2(); // Vraća: D2 <br>
+y.Poruka1(); // Vraća: R1 <br>
+y.Poruka2(); // Vraća: R2
+</p>
+
+</div>
+
+
+<div class="qa-container">
+
+
+<h1>117. Odrediti kakvi mogu biti članovi klase (polja |A
+metode) u programskom jeziku Java.
+Zaokružiti broj ispred očekivanog odgovora:
+
+1. Lokalni i globalni
+2. Proceduralni i neproceduralni
+3. Statički (klasni) i nestatički (objektni)
+4. Spoljašnji i unutrašnji</h1>
+<p> Tacan odogovor: Statički (klasni) i nestatički (objektni)
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>118. Odrediti koja polja su zajednička i jedinstvena za sve
+kreirane objekte neke klase
+definisane u objektno orijentisanom programskom jeziku Java.
+Zaokružiti broj ispred očekivanog odgovora:
+
+1. Javna
+2. Privatna
+3. Objektna
+4. Instancna
+5. Statička</h1>
+<p> Tacan odogovor: Instancna</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>119. U programskom jeziku Java klasa može da sadrži statička
+i ne-statička (instancna)
+polja. Date su izjave koje se odnose na statička polja klase
+i među njih je umetnuta
+jedna izjava koja se odnosi na ne-statička (instancna) polja
+klase.
+Zaokružiti broj ispred izjave koja se odnosi na ne-statička
+polja klase:
+
+1. Polje koje se može se koristiti bez konstruisanja ijednog
+objekta te klase
+2. Polje koje ima istu vrednost za sve kreirane objekte neke
+klase
+3. Polje čija se vrednost može razlikovati za svaki
+pojedinačni objekat neke klase
+4. Polje koje se može koristiti unutar statičkih metoda
+klase, kao i unutar metoda
+instance</h1>
+<p> Tacan odogovor: Polje čija se vrednost može razlikovati za
+svaki pojedinačni objekat neke klase</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>
+120. Zaokružiti broj ispred iskaza koji predstavlja ispravan
+nastavak date tvrdnje:
+Pri kreiranju objekata izvedene klase...
+
+1. izvršava se samo konstruktor izvedene klase
+2. prvo se izvršava konstruktor roditeljske klase, ali samo
+ako je pozvan ključnom rečju super
+3. obavezno se prvo izvršava konstruktor izvedene, a potom
+konstruktor roditeljske klase
+4. obavezno se prvo izvršava konstruktor roditeljske, a
+potom konstruktor izvedene klase
+</h1>
+<p>Tacan odogovor: prvo se izvršava konstruktor roditeljske
+klase, ali samo ako je pozvan ključnom rečju super</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>iskaza koji definišu datu službenu reč NIJE tačan.
+
+Zaokružiti broj ispred očekivanog odgovora:
+
+1.Službena reč super može poslužiti za pozivanje
+konstruktora roditeljske klase.
+2.Službena reč super može poslužiti za pozivanje privatnih
+metoda roditeljske klase kojima se drugačije ne može
+pristupiti.
+3.Službena reč super može poslužiti za pozivanje zaklonjenog
+metoda roditeljske
+klase.
+4. Službena reč super može poslužiti za pozivanje
+zaklonjenog polja roditeljske
+klase.</h1>
+<p>Službena reč super može poslužiti za pozivanje privatnih
+metoda roditeljske klase kojima se drugačije ne može
+pristupiti.
+</p>
+</div>
+
+
+
+
+<div class="qa-container">
+
+<h1>
+
+122. Dat je kod programa y programskom jeziku Java:
+
+public class TestPrimer {
+public static void main(String[] args) {
+System.out.println(fun(17));
+}
+public int Fun(int n) { return n; }
+public void Fun(int n) { System.out.println(n); }
+}
+
+Analizirati kod i zaokružiti broj ispred očekivanog
+odgovora:
+
+1. Program ima grešku, jer se ne može odrediti koju verziju
+preopterećenog metoda fun() treba pozvati.
+2. Program ima grešku, jer je druga verzija preopterećenog
+metoda fun() definisana ali se nigde ne poziva.
+3. Program se normalno izvršava i prikazuje 17 jedanput.
+4. Program se normalno izvršava i prikazuje 17 dvaput.
+</h1>
+<p>Program ima grešku, jer se ne može odrediti koju verziju
+preopterećenog metoda fun() treba pozvati.
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>123. Dat je kod programa y programskom jeziku Java koji
+formira i štampa elemente niza a.
+Analizirati dati kod i proceniti šta će se dogoditi nakon
+njegovog izvršavanja.
+
+public class TestPrimer {
+
+public static void main(String[] args) {
+int[] a = new int[5];
+int i;
+for (i = 0; i < a.length; i++) a[i]=i; System.out.print(a[i]
++ " " ); } } Zaokružiti broj ispred očekivanog odgovora:
+1.Program prikazuje brojeve 0 1 2 3 4 na ekranu.
+2.Program ima grešku, jer će y poslednjoj naredbi print
+metoda main pokušati pristup nepostojećem elementu a[5].
+3.Program prikazuje broj 5 na ekranu. 4. Program ima
+greškujer promenljiva i y poslednjoj naredbi print y
+metodu main imati definisanu vrednost </h1>
+<p>
+Tacan odogovor: Program ima grešku, jer će y
+poslednjoj naredbi print metoda main pokušati
+pristup nepostojećem elementu a[5].
+
+</p>
+
+
+</div>
+
+
+
+<div class="qa-container">
+<h1>124. U programskom jeziku Java data je deklaracija
+niza:
+int k;
+int[ ] brojevi = {5, 12, 37, 7, 27, 33, 36};
+
+Na osnovu date deklaracije odrediti šta je rezultat
+poziva
+k=Arrays.binarySearch(brojevi, 37);
+
+zaokruzi broj ispred očekivanog odgovora:
+1. k=0, jep metod binarySearch prvo izvrši
+sortiranje niza y opadajućem redosledu,
+pa onda traži zadatu vrednost
+2. metod binarySearch baca izuzetak uvek kada je niz
+neuređen i program „puca“
+3. k=2, jep ce traženi elemenat nalazi na poziciji 2
+4. k dobija neočekivanu vrednost jer niz mora biti
+sortiran u rastućem poretku pre
+poziva metode binarySearch
+5. k=6, jep metod binarySearch prvo izvrši
+sortiranje niza u rastućem redosledu, pa
+onda traži zadatu vrednost
+</h1>
+<p>k dobija neočekivanu vrednost jer niz mora biti
+sortiran u rastućem poretku pre poziva metode
+binarySearch
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>125. U programskom jeziku Java data je deklaracija
+promenljive jedne string i jedne
+celebrojne promenljive, kao i deo koda:
+
+String str = “Primer”;
+int broj=66;
+System.out.print1n(str+broj+65);
+System.out.print1n(65+broj+str);
+
+Analizirati kod i proceniti šta će se prikazati na
+ekranu nakon njegovog izvršenja.
+Zaokružiti broj ispred očekivanog odgovora:
+
+1. Primer6665
+Primer 131
+
+2. Primer6665
+6665Primer
+
+3. Primer131
+131Primer
+
+4. PrimerBA
+BAPrimer
+</h1>
+<p> Tacan odogovor: Primer6665
+Primer 131
+
+</p>
+
+</div>
+
+
+<div class="qa-container">
+
+
+<h1>
+126. Dat je kod u programskom jeziku Java, koji
+definiše rekurzivni metod. Analizirati
+kod i odrediti rezultat izvršavanja zadatog metoda.
+
+public long Fun(int n) {
+return n * fun(n - 1);
+}
+
+zaokruziti broj ispred očekivanog odgovora:
+
+1. Rezultat poziva fun(3) je 1.
+2. Rezultat poziva fun(3) je 2.
+3. Rezultat poziva fun(3) je 6.
+4. Poziv fun(3) izaziva greškujer proizvodi
+beskonačan lanac poziva istog metoda
+fun(...).
+</h1>
+<p>
+Tacan odogovor: Rezultat poziva fun(3) je 6.
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>
+127. Dat je kod y programskom jeziku Java, koji
+definiše rekurzivni metod. Analizirati
+kod i odrediti rezultat koji će se prikazati na
+ekranu.
+
+public class TestPrimer {
+public static void main(String[] args) {
+fun(2);
+}
+
+public static void fun(int n) {
+while (n > 1) {
+System.out.print((n – 1) + " ");
+fun(n - 1);
+}
+}
+}
+
+Zaokružiti broj ispred očekivanog odgovora:
+
+1. Program na ekranu ne prikazuje ništa
+2. Program na ekranu prikazuje 1 2 3
+3. Program na ekranu prikazuje 3 2 1.
+4. Program na ekranu beskonačno prikazuje 1 1 1 1 1
+5. Program na ekranu beskonačno prikazuje 2 2 2 2 2
+</h1>
+<p>Program na ekranu prikazuje 3 2 1.</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>
+128. U programskom jeziku Java dat je rekurzivni
+metod koji proverava da li je neki string
+palindrom. Da bi kod bio kompletiran potrebno je
+dopuniti treći red sa uslovom za
+H naredbu.
+
+1. public static boolean palindrom(String s) {
+2. if (s.length() <= 1) return true; //bazni slučaj
+3. else if ( ) return false; 4. else return
+paLindrom(s.substring(1, s.length() – 1)); 5 }
+Zaokružiti broj ispred očekivanog odgovora: 1.
+s.charAt(G) !=s.charAt(s.length() – 1) 2.
+s.charAt(G) !=s.charAt(s.length()) 3.
+s.charAt(1) !=s.charAt(s.length() – 1) 4.
+s.charAt(1) !=s.charAt(s.length()) </h1>
+<p>s.charAt(0) != s.charAt(s.length() - 1)</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1> 129. U programskom jeziku Java dat je rekurzivni metod koji proverava da li je
+neki string palindrom. Da bi kod bio kompletiran
+potrebno je dopuniti sedmi red.
+1. public static boolean palindrom(String s)
+{
+2. return paLindrom(s,0, s.length() – 1);
+3. }
+4. public static boolean palindrom(String
+s,int levi, int desni){
+5. if (desni <= levi) return true; // bazni
+slucaj 6. else if (s.charAt(leVi)
+!=s.charAt(desni)) return false; 7. else
+return ________________; 8. } Zaokružiti
+broj ispred očekivanog odgovora: 1.
+paLindrom(s) 2. paLindrom(s, levi,
+desni) 3. paLindrom(s, levi+1, desni-1)
+4. paLindrom(s, levi+1, desni) 5.
+paLindrom(s, levi, desni-1) </h1>
+
+<p> Tacan odogovor: paLindrom(s, levi+1, desni-1)</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>130. U programskom jeziku Java dat
+je rekurzivni metod za binarno
+pretraživanje
+sortiranog celobrojnog niza. Da bi
+kod bio kompletiran potrebno je
+dopuniti deveti
+red (označen linijom) pomoću
+ponuđenog odgovora.
+
+1. public static int traziBroj(int[]
+niz, int broj) {
+2. return traziBroj(niz, broj, 0,
+niz.length - 1);
+3. }
+4. public static int traziBroj(int[]
+niz,int broj,int levi,int desni) {
+5. if (levi > desni) return -1; //
+broj nije nadjen u nizu
+6. int sredina = (levi+desni)/2;
+7. if (broj<niz[sredina]) return
+    traziBroj(niz, broj,levi,
+    sredina- -1); 8. e15e if(broj>
+    niz[sredina]) return ;
+    9. else return sredina,
+    10. }
+
+    Zaokružiti broj ispred
+    očekivanog odgovora:
+
+    1. traziBroj(niz, broj, sredina
+    + 1, levi)
+    2. traziBroj(niz, broj, sredina
+    - 1, levi)
+    3. traziBroj(niz, broj, desni,
+    sredina + 1)
+    4. traziBroj(niz, broj, sredina
+    + 1, desni)
+</h1>
+<p> Tacan odogovor: traziBroj(niz, broj,
+sredina + 1, desni)</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>131. Dat je kod programa y
+programskom jeziku Java. Analizirati
+dati kod i proceniti
+njegovu tačnost. Zaokružiti broj
+ispred ponuđenog tačnog iskaza:
+
+public class Test {
+int x;
+public Test(String s) {
+System.out.println("Test");
+}
+public static void main(String[]
+args) {
+Test t = null;
+System.out.println(t.x);
+
+1. Program ima greškujer promenljiva
+h nije inicijalizovana.
+2. Program ima greškujer klasa Test
+nema podrazumevani konstruktor.
+3. Program ima grešku jer se y nekoj
+klasi ne može deklarisati
+promenljiva tipa te
+iste klase, kao što je to ovde
+slučaj sa promenljivom t.
+4. Program ima grešku jer
+promenljiva t nije inicijalizovana i
+ima vrednost null y
+momentu kada se prikazuje polje t.x
+.
+5. Program nema grešaka i normalno
+se izvršava, ne prikazujući ništa na
+ekranu.
+</h1>
+<p>Program ima grešku jer promenljiva t
+nije inicijalizovana i ima vrednost
+null y momentu kada se prikazuje
+polje t.x.
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>132. Data je definicija klase y
+programskom jeziku Java. Proceniti
+gde y definiciji klase
+(ispred koje metode) treba zameniti
+znakove ??? službenom rečju static.
+
+public class Test {
+private int broj;
+public ??? int kvadrant(int n) {
+return n * n; }
+public ??? int getBroj() { return
+broj; }
+}
+
+Zaokružiti broj ispred tačne izjave:
+1. Metoda kvadrant MOPA da bude
+statička, dok metoda getBroj može i
+ne mora.
+2. Obe metode moraju biti statičke.
+3. Ni jedna od definisanih metoda
+nije statička.
+4. </h1>
+<p>Ni jedna od definisanih metoda nije statička.</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>133. Data je definicija klase y
+programskom jeziku Java i sastoji se
+od dva konstruktora,
+metode i polja h i u. U šestom redu
+napisati konstruktor kopije klase
+Point.
+
+public class Point {
+private double x,y;
+public Point( ) { h=0; u=0; }
+public void set(double xx,double yy)
+{ h=hh; y=yy; }
+public Point(Point p) {
+_____________ //Odgovor
+}
+}
+
+Zaokruziti broj ispred očekivanog
+odgovora:
+
+1. this(p.x,p.y);
+2. this(p);
+3. set(p);
+4. set(p.x,p.y);
+</h1>
+<p> Tacan odogovor: this(p.x, p.y)</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>
+134. Dat je kod programa u
+programskom jeziku Java kojim su
+definisane dve klase: class
+Test koja sadrži main(String[] args)
+metodu i class KlasaA. Analizirati
+dati kod i
+odrediti da li je kod ispravno
+napisan. Ponuđeni odgovori daju opis
+posledica
+izvršavanja ovog koda. Zaokružiti
+broj ispred tačnog iskaza.
+
+public class Test {
+public static void main(String[]
+args) {
+KlasaA al = new KlasaA();
+KlasaA a2 = new KlasaA();
+System.out.println(a1.equals(a2));
+}
+}
+
+class KlasaA {
+int x;
+public boolean equals(KlasaA a) {
+return this.x == a.x;
+}
+}
+
+1. Program ima grešku, jer se
+izrazom a1.eodža|z(a2) proverava
+jednakost objekata a1 i a2
+različitog tipa od Object.
+2. Program ima grešku, jer se
+jednakost objekata a1 i a2 tipa
+KlasaA proverava izrazom a1 == a2.
+3. Program se izvršava bez greške i
+prikazuje se true na ekranu.
+4. Program se izvršava bez greške i
+prikazuje se false na ekranu.
+</h1>
+<p>Program ima grešku, jer se izrazom
+a1.equals(a2) proverava jednakost
+objekata a1 i a2 različitog tipa od
+Object.
+</p>
+</div>
+
+
+<div class="qa-container">
+
+
+
+<h1>
+135. Dat je kod programa y
+programskom jeziku Java y kom su
+definisane dve klase: class
+Test koja sadrži main(String[] args)
+metodu i class KlasaA. Analizirati
+dati kod i
+odrediti da li je kod ispravno
+napisan. Ponuđeni odgovori daju opis
+posledica
+izvršavanja ovog koda. Zaokružiti
+broj ispred tačnog iskaza.
+
+public class Test {
+public static void main(Stning[]
+angs) {
+Object al = new KlasaA();
+Object a2 = new KlasaA();
+System.out.println(a1.equals(a2));
+}
+}
+class KlasaA {
+int x;
+public boolean equals(KlasaA a) {
+return this.x == a.x;
+}
+}
+
+1. Program ima grešku, jer se
+izrazom a1.eodža|z(a2) proverava
+jednakost objekata a1 i a2
+različitog tipa od Object.
+2. Program ima grešku, jer se
+jednakost objekata a1 i a2 tipa
+KlasaA proverava izrazom a1 == a2.
+3. Program se izvršava bez greške i
+prikazuje se true na ekranu.
+4. Program se izvršava bez greške i
+prikazuje se false na ekranu.
+</h1>
+<p>Program ima grešku, jer se izrazom
+a1.equals(a2) proverava jednakost
+objekata a1 i a2 različitog tipa od
+Object.
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>136. Dat je kod programa u
+programskom jeziku Java u kom su
+definisane tri klase: class
+Test koja sadrži main(String[] args)
+metodu, class A |A class B.
+Analizirati dati kod i
+odrediti da li je kod ispravno
+napisan. Zaokružiti broj ispred
+iskaza koji daje
+informaciju o tačnosti koda.
+
+public class Test {
+public static void main(String[]
+args) {
+B b = new B();
+b.metod(5);
+System.out.pnintln("b.i je " + b.i);
+}
+}
+class A {
+int i;
+public void metod(int i) { this.i =
+i; }
+}
+class B extends A {
+public void metod(String s) {
+System.out.pnintln(s); }
+}
+
+1. Program ima grešku, jer je metod
+metod(int i) nadjačan sa različitim
+potpisom u klasi
+2. Program ima grešku, jer se
+ć.tetod(5) ne može pozvati pošto je
+metod metod(int i) zaklonjen u klasi
+B.
+3. Program ima grešku zbog b.i, jep
+je polje i nepristupačno iz klase B.
+4. Program nema greške, jer
+nasleđeni metod klase A, metod(int
+i) H|Aje nadjačan u
+klasi V, već je definisan
+preopterećen metod metod(String s).
+</h1>
+<p>Program ima grešku, jer je metod
+metod(int i) nadjačan sa različitim
+potpisom u klasi B.
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>137. Dat je deo koda koji je napisan
+na Java programskom jeziku.
+Analizirati kod i odrediti
+šta će se prikazati na izlazu.
+
+try{
+int x= 0;
+int y = 5 / x;
+}
+catch (Exception e) {
+System.out.print1n("Exception");
+}
+
+catch (AnithmeticException ae){
+System.out.print1n(" Arithmetic
+Exception");
+}
+System.out.print1n("finished");
+
+
+Zaokruži broj ispred tačnog
+odgovora:
+1. Prikazuje se tekst: finished
+2. Prikazuje se tekst: Exception
+3. Ništa. Dešava se greška prilikom
+kompajliranja
+4. Prikazuje se tekst: Arithmetic
+Exception
+
+</h1>
+<p>Ništa. Dešava se greška prilikom
+kompajliranja.
+</p>
+
+</div>
+
+
+
+<div class="qa-container">
+
+<h1>138. Zaokružiti broj ispred iskaza
+koji predstavlja ispravan nastavak
+date rečenice:
+
+Ako try-catch naredba ima više catch
+blokova u kojima “hvatamo“ izuzetak
+osnovne
+Exception klase, zajedno sa
+izuzecima drugih klasa izvedenih iz
+klase Exceptions...
+
+1. onda se izuzetak osnovne
+Exception klase može „hvatati“ u
+bilo kom catch bloku
+(redosled nije bitan, bitno je da se
+navedu sve moguće greške)
+2. onda se izuzetak osnovne
+Exception klase mora „hvatati“ u
+poslednjem catch bloku
+3. onda se izuzetak osnovne
+Exception klase mora „hvatati“ u
+prvom catch bloku
+4.osnovna Exception klasa se ne
+kombinuje u istoj naredbi sa klasama
+izvedenim iz nje jer ih osnavna
+klasa „maskira“
+</h1>
+<p>Onda se izuzetak osnovne Exception
+klase može „hvatati“ u bilo kom
+catch bloku (redosled nije bitan,
+bitno je da se navedu sve moguće
+greške)
+</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>
+139. Data je naredba koda u
+programskom jeziku Java koja
+predstavlja deklaraciju niza.
+Proceniti koje od dole navedenih
+deklaracija su tačne.
+
+Zaokružiti brojeve ispred očekivanih
+odgovora:
+
+
+1. int niz = new int(30);
+2. double[ ] niz = new double[30];
+3. int[] niz = { 3, 4, 3, 2 }; 1·5
+4. char[ ] niz = new char[ ];
+5. char[ ] niz = new char { 'a',
+'b', 'c', 'd' };
+6. char[] niz = new char[ ] { 'a',
+'b' };
+</h1>
+<p> Tacan odogovor: <br>
+
+double[ ] niz = new double[30]; <br>
+int[] niz = { 3, 4, 3, 2 }; <br>
+char[] niz = new char[ ] { 'a', 'b'
+};
+</p>
+
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>
+140. Da bi nasleđeni metod mogao da
+se redefiniše i time izmeni njegova
+funkcionalnost y klasama
+naslednicama, y roditeljskoj klasi
+ispred oznake povratnog
+tipa metoda NE SME se navesti neka
+od ponuđenih ključnih reči.
+
+Zaokružiti brojeve ispred ključnih
+reči na koje se odnosi prethodna
+tvrdnja:
+
+1. final
+2. override 1,5
+3. abstract
+4. private
+5. default, kada je klasa naslednica
+u drugom paketu
+6. super
+7. public ili protected
+</h1>
+<p> Tacan odogovor: <br>
+
+final <br>
+private <br>
+default, kada je klasa naslednica u
+drugom paketu
+</p>
+
+</div>
+
+
+<div class="qa-container">
+
+<h1>141. Dat je kod na Javi kojim su kreirane tri klase u lancu nasleđivanja. Imajući u vidu
+klasifikatore pristupa poljima klasa, zaokružiti brojeve ispred polja koja će biti
+vidljiva unutar klase Sin:
+
+public class Deda { 
+private double penzija;
+protected String adresa; 
+public String ime; 
+} 
+
+public class Otac extends Deda { 
+private double plata;
+protected String struka;
+
+}
+
+public class Sin extends Deda {
+public int razred;
+}
+
+1. penzija
+2. adresa
+3. ime
+4. plata
+5. struka
+6. razred</h1>
+<p>penzija <br>
+adresa <br>
+ime <br>
+razred</p>
+</div>
+
+
+
+<div class="qa-container">
+<h1>142. Dat je kod napisan u Javi kojim su kreirane tri klase u lancu nasleđivanja. Unutar
+svake klase deklarisan je po jedan private, public i protected atribut. U metodi Mato
+klase Program kreiran je objekat s klase Sin (Sin s = new Sin() ;) Zaokružiti brojeve
+ispred polja koja će biti vidljiva u kreiranom objektu s klase Sin:
+
+public class Deda { 
+private double penzija; 
+protected String adresa; 
+public String ime; 
+} 
+
+public class Otac extends Deda { 
+private double plata; 
+protected String firma; 
+public String struka; 
+}
+
+public class Sin extends Otac {
+private double prosek;
+protected int razred;
+public String skola;
+}
+
+1. penzija
+2. adresa
+3. ime
+4. plata
+5. struka
+6. firma
+7. prosek
+8. razred 
+9. skola</h1>
+<p>
+ime <br>
+firma <br>
+prosek <br>
+razred</p>
+</div>
+
+
+<div class="qa-container">
+<h1>
+143. Dati su izkazi koji se odnose na pravila pisanja try-catch-finaIIy blokova za rukovanje
+izuzecima. Zaokružiti brojeve ispred iskaza koji su tačni:
+
+1. Blok try mora imati bar jedan catch ili jedan finaIIy blok
+2. Blok try može imati više catch blokova
+3. Ako blok try ima više catch blokova, izuzetak osnovne Exception klase mora se
+hvatati u prvom catch bloku
+4. Ako blok try ima više catch blokova, bitan je redosled njihovog pisanja
+5. Blok try M0pa imati bar jedan finaIIy blok
+6. Blok try He sme da ima više catch blokova</h1>
+<p>
+Blok try može imati više catch blokova
+Ako blok try ima više catch blokova, bitan je redosled njihovog pisanja
+Blok try mora imati bar jedan finally blok</p>
+</div>
+
+<div class="qa-container">
+<h1>144. Data je definicija klase u programskom jeziku Java i sastoji se od dva konstruktora,
+metode i polja h i u. U petom redu definisan je konstruktor sa parametrima koji
+formira tačku sa koordinatama h i u. Zaokružiti naredbe kojima se može dopuniti
+definicija konstruktora:
+
+1. public class Point {
+2. private double x,y;
+3. public Point( ) { x=0; y:0; }
+4. public void set(double xx, double yy) { x=xxx; y=yy; }
+5. public Point(double x, double y) { _____________; }
+6. }
+
+Zaokružiti brojeve ispred tačnih odgovora:
+1. this.x=x; this.y=y;
+2. x=x;y=y;
+3. set(x,y);
+4. set(this.x,this.y);
+5. x=this.x; y=this.y;</h1>
+<p>
+this.x=x; this.y=y;</p>
+</div>
+
+
+<div class="qa-container">
+<h1>
+145. Dati su delovi koda u programskom jeziku Java koji treba da računaju zbir elemenata
+matrice a tipa int[][] . AHa|·||A3|ApaT|A date kodove i proceniti koji od predloga je
+tačan.
+
+Zaokružiti brojeve ispred očekivanih odgovora:
+
+1. int s=0;
+for(int 1=0; i<a.length; i++)
+for(int j=0; j<a.length; j++) s+=a[i][j];
+2. int s=0;
+for(int[] vrsta : a)
+for(int el : vrsta) s+=el;
+3. int s=0;
+for(int 1=0; i<a.length; i++)
+for(int j=0; j<a[i].length; j++) s+=a[i][j];
+4. int s=0;
+for(int[] vrsta : a)
+for(int[] el : vrsta) s+=el;</h1>
+<p>2. int s=0;
+for(int[] vrsta : a)
+for(int el : vrsta) s+=el;
+</p>
+</div>
+
+<div class="qa-container">
+<h1>146. Date su naredbe y programskom jeziku Java koje definišu zaglavlje metode print() sa
+promenljivim brojem parametara. Odrediti koji od ponuđenih odgovora su ispravni.
+Zaokružiti brojeve ispred očekivanih odgovora:
+
+1. public void print(String... niska, double... broj)
+2. public void print(double... broj, String ime)
+3. public void double... print(double dl, double d2)
+4. public void print(double... broj)
+5. public void print(int n, double... broj)</h1>
+<p>4. public void print(double... broj)
+</p>
+
+</div>
+
+
+<div class="qa-container">
+<h1>147. Data je definicija klase u programskom jeziku Java i sastoji se od dva konstruktora,
+jedne metode i polja h. U definiciji se koristi službena reč this. AHan|A3|ApaT|A dati
+kod i proceniti tačnost sledećih iskaza. Zaokružiti brojeve ispred tačnih iskaza:
+
+public class TestPrimer {
+private double x;
+public TestPrimer(double x) {
+this.fun();
+this.x = x;
+}
+
+public TestPrimer() {
+System.out.println("Podrazumevani konstruktor");
+this(23);
+}
+
+public void fun() {
+System.out.println("Poziv metoda fun()");
+}
+}
+
+1. this.fun() y konstruktoru TestPrimer(doubIe h) može se pojednostaviti i zameniti samo
+sa fun().
+2. this.x y konstruktoru TestPrimer(doubIe h) može se pojednostaviti i zameniti samo sa h.
+3. this(23) y konstruktoru TestPrimer() mora se pisati pre naredbe
+System.out.printIn ("Podrazumevani konstruktor");.
+4. this(23) y konstruktoru TestPrimer() mora se zameniti sa preciznijim izrazom
+this(23.0).</h1>
+<p> Tacan odogovor: <br>
+
+this.fun() y konstruktoru TestPrimer(double x) može se pojednostaviti i zameniti samo sa fun(). <br>
+this.x y konstruktoru TestPrimer(double x) može se pojednostaviti i zameniti samo sa x. <br>
+this(23) y konstruktoru TestPrimer() mora se pisati pre naredbe System.out.printIn ("Podrazumevani konstruktor").
+
+</p>
+</div>
+
+
+
+<div class="qa-container">
+<h1>148. Dati su iskazi koji u programskom jeziku Java definišu konstruktor.
+Zaokružiti brojeve ispred očekivanih odgovora:
+
+1. Podrazumevani konstruktor bez parametara se uvek automatski dodaje klasi.
+2. Podrazumevani konstruktor bez parametara se klasi automatski dodaje ukoliko u njoj
+nije eksplicitno definisan nijedan konstruktor.
+3. U klasi se mora eksplicitno definisati bar jedan konstruktor.
+4. Konstruktori nemaju tip rezultata, čak ni void.</h1>
+<p>Podrazumevani konstruktor bez parametara se uvek automatski dodaje klasi. <br>
+Podrazumevani konstruktor bez parametara se klasi automatski dodaje ukoliko u njoj nije eksplicitno definisan nijedan konstruktor. <br>
+U klasi se mora eksplicitno definisati bar jedan konstruktor. <br>
+Konstruktori nemaju tip rezultata, čak ni void.</p>
+<div class="qa-container">
+<h1>149. Zaokružiti brojeve ispred navedenih članova klase koji koji se ni pod kojim uslovima
+NE nasleđuju iz roditeljske klase u izvedenu klasu:
+
+1.Final polja
+2. Zaštićeni članovi klasa
+3. Seteri i geteri
+4. Privatni članovi klasa
+5. Konstruktor klase</h1>
+<p>Privatni članovi klasa</p>
+</div>
+
+
+
+<div class="qa-container">
+<h1>150. Dat je kod programa y programskom jeziku Java. Kod sadrži objekte dve klase y kojima je
+definisan metod toStringO. AHan|A3|ApaT|A kod datog programa i odrediti koji od datih
+iskaza su tačni.
+
+public class TestPrimer {
+public static void main(String[] args) {
+Object a = new Klasa();
+Object obj = new Object();
+System.out.println(a);
+System.out.println(obj);
+}
+}
+class Klasa {
+int x;
+public String toString() { return "x u A je " + x; }
+}
+
+Zaokružiti brojeve ispred očekivanih odgovora:
+
+1. Program ima grešku, jer naredbu System.out.print|n(a) Tpe6a zameniti naredbom
+System.out.println(a.toString()).
+2. Prilikom izvršavanja naredbe System.out.print|n(a), program poziva metod toString()
+nasleđen iz klase Object.
+3. Prilikom izvršavanja naredbe System.out.print|n(a), program poziva metod toString()
+iz klase A.
+4. Prilikom izvršavanja naredbe System.out.print|n(obj), program poziva metod
+toString() iz klase Object.</h1>
+<p> Tacan odogovor: <br>
+Prilikom izvršavanja naredbe System.out.print|n(a), program poziva metod toString() iz klase A.
+</p>
+</div>
+
+
+<div class="qa-container">
+<h1>151. U programskom jeziku Java data je deklaracija klase KlasaA |A klase TestPrimer Koja
+nasleđuje klasu A. Analizirati date klase i proceniti koji od ponuđenih iskaza su
+tačni. Zaokružiti brojeve ispred tačnih iskaza:
+
+public class TestPrimer extends KlasaA {
+public static void main(String[] args) {
+TestPrimer t = new TestPrimer();
+t.print();
+}
+
+class KlasaA {
+String s;
+public KlasaA(String s) { this.s = 5; }
+public void print() { System.out.println(s); }
+
+1. Program ima grešku, jer klasa TestPrimer nema podrazumevani konstruktor
+TestPrimer().
+2. Program ima grešku, jer klasa TestPrimer ima implicitni podrazumevani
+konstruktor bez parametara TestPrimer(), ali nasleđena klasa KlasaA nema takav
+konstruktor. Program bi radio bez greške ukoliko bi se uklonio konstruktor u klasi
+KlasaA.
+3. Program ima grešku, ali bi radio bez greške ukoliko bi se klasi KlasaA
+eksplicitno dodao konstruktor bez parametara KIasaA().
+4. Program nema grešku, izvršava se, ali se na konzoli ništa ne ispisuje jer je polje
+s objekta t dobilo podrazumevanu vrednost praznog stringa</h1>
+<p>Program ima grešku, ali bi radio bez greške ukoliko bi se klasi KlasaA eksplicitno dodao konstruktor bez parametara KIasaA().
+</p>
+</div>
+
+
+
+<div class="qa-container">
+<h1>
+152. U klasi Figura dat je podrazumevani (deafult) konstruktor i konstruktor sa 4 parametra:
+
+public Figura() {...}
+public Figura(String ime, String boja, int pozX, int pozY) {...}
+
+Zaokruzi brojeve ispred ispravno napisanih naredbi kreiranja objekata klase Figura:
+
+1. Figura f = Figura("lovac", "beli", 7, 3); 3
+2. Figura { = new Figura("beli", "lovac", 7, 3);
+3. Figura f = new Figura();
+4. Figura f = new Figura("lovac", 7, 3, "beli");
+5. Figura { = new Figura("lovac", "beli", 7, 3);
+6. Figura { = new Figura("lovac", "beli", 3);</h1>
+<p>Figura { = new Figura("lovac", "beli", 3);</p>
+</div>
+
+
+<div class="qa-container">
+<h1></h1>
+<p>Naredbe koje se izvršavaju u slučaju nastanka greške stavljaju se unutar bloka catch.
+Naredbe koje se izvršavaju i ako se desi i ako se ne desi greška stavljaju se unutar bloka finally.
+Naredbe koje mogu izazvati grešku stavljaju se unutar bloka try.</p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p>r.Uvecaj(); vraća 19.
+rDin.Uvecaj(); vraća 551.
+rDev.Uvecaj(); vraća 610.</p>
+</div>
+
+
+<div class="qa-container">
+<h1></h1>
+<p>r.Uvecaj(); vraća 10.
+rDin.Uvecaj(); vraća 200.
+rDev.Uvecaj(); vraća 60.</p>
+</div>
+<div class="qa-container">
+<h1></h1>
+<p>
+a.Metod() vraća 10
+b.Metod() vraća 20
+bb.Metod() vraća 10
+c.Metod() vraća 30
+cc.Metod() vraća 20
+ccc.Metod() vraća 10
+</p>
+</div>
+<div class="qa-container">
+<h1></h1>
+<p>x.Poruka1(); ispisuje "D1"
+x.Poruka2(); ispisuje "D2"
+y.Poruka1(); ispisuje "D1"
+y.Poruka2(); ispisuje "R2"
+</p>
+</div>
+<div class="qa-container">
+<h1>163. Zaokruziti broj ispred tačnog odgovora. Koja je osnovna uloga CSS-a (Cascading Style
+Sheen:
+
+1. Definiše strukturu i sadržaj stranice
+2 Definiše konkretan izgled elemenata stranice
+3. Definiše kojim jezikom veb server izvršava dinamičku veb stranicu
+4. Definiše protokol za pristup određenoj veb stranici</h1>
+<p>Definiše konkretan izgled elemenata stranice</p>
+</div>
+<div class="qa-container">
+<h1>164. Unutar HTML stranice, CSS pravila se kreiraju navođenjem selektora elementa,
+svojstava i vrednosti. Kako se definišu selektori HTML elementa:
+
+1. Selektori se definišu isključivo na osnovu imena HTML elementa
+2. Selektori se definišu na osnovu imena elementa, naziva klase ili
+identifikatora elementa
+3. Selektori se definišu na osnovu atributa svakog HTML elementa
+4.Selektori se definišu korišćenjem ključne reči selector |A atributa
+</h1>
+<p>Selektori se definišu na osnovu imena elementa, naziva klase ili identifikatora elementa</p>
+</div>
+
+<div class="qa-container">
+<h1>165. Zaokružiti broj ispred tačnog odgovora.
+
+Definisan je stil elementa y okviru koga se nalazi pozadinska slika. Koju vrednost
+svojstvo background—repeat treba da ima ukoliko slika ne treba da se ponavlja u
+okviru elementa:
+
+1. background–repeat: fixed;
+2 background–repeat: null;
+3. background–repeat: no–repeat;
+4. background–repeat: repeat–x;</h1>
+<p>Tacan odgovor: background-repeat: no-repeat;</p>
+</div>
+
+<div class="qa-container">
+<h1>166. Zaokružiti broj ispred tačnog odgovora.
+Selektorom a:visited omogućava se stilizovanje:
+1. aktivnog linka
+2 posećenog linka
+3. linka kada se preko njega pređe mišem
+4. elementa sa nazivom klase: a</h1>
+<p>Tacan odgovor:  posećenog linka</p>
+</div>
+<div class="qa-container">
+<h1>
+167. Zaokružiti broj ispred tačnog odgovora.
+
+Koje od ponuđenih svojstava omogućava postizanje efekta slojevitosti elemenata u
+okviru HTML strane?
+
+1. Svojstvo overlap
+2 Svojstvo layer
+3. Svojstvo z—index
+4.He postoji rešenje za postizanje slojevitosti elemenata HTML strane</h1>
+<p>Svojstvo z-index</p>
+</div>
+<div class="qa-container">
+<h1>168. Zaokružiti broj ispred tačnog odgovora.
+
+Analazirati sledeći HTML kod i odabrati koja od ponuđenih opcija opisuje rezultat
+prikaza HTML koda:
+
+<b><i> Maturski ispit </i></b>
+
+1. Tekst će biti samo podebljan
+2. Tekst će biti samo iskošen
+3. Tekst će biti ispisan podebljano i iskošeno
+4. Nece ce primeniti nikakav efekat na tekst</h1>
+<p>Tekst će biti ispisan podebljano i iskošeno</p></div>
+
+
+<div class="qa-container">
+<h1></h1>
+<p>Internet je svetski sistem umreženih računarskih mreža
+Podaci koji „putuju“ svetskom mrežom i skup korisnika zajedno čine Internet mrežu
+Internet čini njena hardverska komponenta kao i sistem softverskih slojeva koji kontrolišu različite aspekte njene komunikacione infrastrukture</p>
+</div>
+
+<div class="qa-container">
+<h1>176. Zaokružiti brojeve ispred traženih odgovora.
+Šta od navedenog predstavlja skup specijalizovanih programa sa funkcijom veb
+servera:
+
+1. Microsoft Internet Information Services
+2. Microsoft SQL Server
+3. Apache Web Server
+4. Microsoft NT Server</h1>
+<p>Tacan odgovor: <br>
+Microsoft Internet Information Services <br>
+Apache Web Server
+</p>
+</div>
+<div class="qa-container">
+<h1>
+177. Među ponuđenim iskazima zaokružiti one koje se odnose na dinamičke veb stranice:
+
+1. Mogu pristupiti bazama podataka
+2. Stranice se sastoje isključivo od HTML koda
+3. Dinamičke stranice se pišu y CSS jeziku
+4. Mogu slati personalizovan sadržaj pojedinačnim korisnicima
+5. Stranice se izvršavaju na veb serveru, a rezultat ovog izvršavanja predstavlja
+HTML kod
+6. Ažuriranje podataka na sajtuje komplikovanije i sporije nego kod statičkog sajta
+</h1>
+<p>Tacan odgovor: <br>
+Mogu pristupiti bazama podataka <br>
+Mogu slati personalizovan sadržaj pojedinačnim korisnicima <br>
+Stranice se izvršavaju na veb serveru, a rezultat ovog izvršavanja predstavlja HTML kod
+</p>
+</div>
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p>link rel="stylesheet" type="text/css" href="style.css"</p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+<div class="qa-container">
+<h1></h1>
+<p></p>
+</div>
+
+
+    </div>
+    <script>
+        // Function to perform search
+        function performSearch() {
+            const searchInput = document.getElementById('searchInput');
+            const searchTerm = searchInput.value.toLowerCase();
+
+            const qaContainer = document.getElementById('qaContainer');
+            const qaPairs = qaContainer.querySelectorAll('.qa-container');
+
+            // Loop through Q&A pairs to show/hide based on the search term
+            for (let i = 0; i < qaPairs.length; i++) {
+                const questionText = qaPairs[i].querySelector('h1').textContent.toLowerCase();
+
+                // Show the pair if the question contains the search term
+                if (questionText.includes(searchTerm)) {
+                    qaPairs[i].style.display = 'block';
+                } else {
+                    qaPairs[i].style.display = 'none';
+                }
+            }
+        }
+
+        // Attach event listener to the search input
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', performSearch);
+    </script>
+</body>
+
+</html>
